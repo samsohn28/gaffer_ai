@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/processed/
+data/fpl_history.db
+*.ipynb_checkpoints
