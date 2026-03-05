@@ -1,5 +1,5 @@
 """
-Fetch FPL bootstrap-static data and save to data/raw/.
+Fetch FPL bootstrap-static and fixtures data and save to data/raw/.
 
 The bootstrap-static endpoint returns a snapshot of the current season:
   - elements: all players and their stats
@@ -7,17 +7,24 @@ The bootstrap-static endpoint returns a snapshot of the current season:
   - events: gameweek schedule and deadlines
   - element_types: position definitions (GK, DEF, MID, FWD)
   - element_stats: stat definitions used for scoring
+
+The fixtures endpoint returns all PL fixtures for the season:
+  - event: gameweek number
+  - team_h / team_a: home/away team IDs
+  - team_h_difficulty / team_a_difficulty: FDR (1-5 scale)
+  - finished / started: fixture status
+  - team_h_score / team_a_score: result if played
 """
 
 import json
 import sys
-from datetime import datetime
 from pathlib import Path
 
 import requests
 
 API_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
-OUTPUT_DIR = Path(__file__).parent.parent / "data" / "raw"
+FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "raw"
 
 KEYS_TO_SAVE = [
     "elements",
@@ -34,16 +41,28 @@ def fetch_bootstrap() -> dict:
     return response.json()
 
 
-def save(data: dict, key: str, timestamp: str) -> Path:
-    path = OUTPUT_DIR / f"{key}_{timestamp}.json"
+def fetch_fixtures() -> list:
+    response = requests.get(FIXTURES_URL, timeout=10)
+    response.raise_for_status()
+    return response.json()
+
+
+def save(data: dict, key: str) -> Path:
+    path = OUTPUT_DIR / f"{key}.json"
     with open(path, "w") as f:
         json.dump(data[key], f, indent=2)
     return path
 
 
+def save_list(data: list, name: str) -> Path:
+    path = OUTPUT_DIR / f"{name}.json"
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
+    return path
+
+
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
 
     print(f"Fetching {API_URL} ...")
     try:
@@ -56,8 +75,18 @@ def main():
         if key not in data:
             print(f"  Warning: key '{key}' not found in response, skipping.")
             continue
-        path = save(data, key, timestamp)
+        path = save(data, key)
         print(f"  Saved {key} ({len(data[key]) if isinstance(data[key], list) else 1} records) -> {path}")
+
+    print(f"Fetching {FIXTURES_URL} ...")
+    try:
+        fixtures = fetch_fixtures()
+    except requests.RequestException as e:
+        print(f"Error fetching fixtures: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    path = save_list(fixtures, "fixtures")
+    print(f"  Saved fixtures ({len(fixtures)} records) -> {path}")
 
 
 if __name__ == "__main__":
