@@ -25,7 +25,7 @@ import requests
 API_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
 LIVE_GW_URL = "https://fantasy.premierleague.com/api/event/{event_id}/live/"
-OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "raw"
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "bronze"
 
 KEYS_TO_SAVE = [
     "elements",

@@ -23,7 +23,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-RAW_DIR = Path(__file__).resolve().parents[2] / "data" / "raw"
+RAW_DIR = Path(__file__).resolve().parents[2] / "data" / "bronze"
 OUTPUT_PATH = RAW_DIR / "injuries.json"
 ELEMENTS_PATH = RAW_DIR / "elements.json"
 

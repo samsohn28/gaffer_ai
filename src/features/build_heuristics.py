@@ -17,7 +17,7 @@ import csv
 import json
 from pathlib import Path
 
-RAW_DIR = Path(__file__).parent.parent.parent / "data" / "raw"
+RAW_DIR = Path(__file__).parent.parent.parent / "data" / "bronze"
 PROCESSED_DIR = Path(__file__).parent.parent.parent / "data" / "processed"
 OUTPUT_FILE = PROCESSED_DIR / "player_predictions.csv"
 

@@ -15,7 +15,7 @@ from pathlib import Path
 
 import requests
 
-OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "raw"
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "bronze"
 TEAMS_PATH = OUTPUT_DIR / "teams.json"
 CLUBELO_URL = "http://api.clubelo.com/{date}"
 

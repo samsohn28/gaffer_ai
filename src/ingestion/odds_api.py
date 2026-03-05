@@ -25,7 +25,7 @@ load_dotenv()
 BASE_URL = "https://api.the-odds-api.com/v4"
 SPORT = "soccer_epl"
 API_KEY = os.environ.get("ODDS_API_KEY")
-OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "raw"
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "bronze"
 MAX_RETRIES = 3
 
 

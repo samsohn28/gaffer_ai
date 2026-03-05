@@ -4,9 +4,22 @@ An FPL (Fantasy Premier League) AI that picks your squad each gameweek using dat
 
 ## How it works
 
-1. **Ingest** — fetch live data from the FPL API and xG data from Understat
-2. **Score** — estimate expected points per player using heuristics or an ML model
-3. **Optimize** — solve for the best 15-man squad + starting XI within FPL constraints
+1. **Ingest** — fetch live data from the FPL API and xG data from Understat → `data/bronze/`
+2. **Clean** — normalise and type-cast bronze JSON → silver Parquet (`data/silver/`)
+3. **Feature build** — join silver tables into one wide feature table (`data/gold/features.parquet`)
+4. **Score** — estimate expected points per player using heuristics or an ML model
+5. **Optimize** — solve for the best 15-man squad + starting XI within FPL constraints
+
+## Data architecture
+
+```
+data/
+  bronze/      ← raw JSON landing zone (ingestion outputs)
+  silver/      ← cleaned, typed Parquet files (one per source)
+  gold/        ← wide feature table: player_id × gameweek_id
+  processed/   ← squad optimizer outputs
+  manual/      ← manually maintained CSVs / images
+```
 
 ## Quickstart
 
@@ -14,17 +27,21 @@ An FPL (Fantasy Premier League) AI that picks your squad each gameweek using dat
 # Install dependencies
 pip install -r requirements.txt
 
-# Ingest data
-python -m src.ingestion.fpl_api          # fetch latest FPL data + fixtures
-python -m src.ingestion.understat_scraper  # fetch xG/xA from Understat
-python -m src.ingestion.odds_api         # fetch betting market odds (requires ODDS_API_KEY in .env)
-python -m src.ingestion.clubelo          # fetch ClubElo team strength ratings
-python -m src.ingestion.injuries_from_csv     # parse premierinjuries.com CSV export (data/manual/premierinjuries_*.csv)
-python -m src.ingestion.premier_injuries      # parse premierinjuries.com emails (requires GMAIL_ADDRESS + GMAIL_APP_PASSWORD in .env)
+# Ingest data → data/bronze/
+python -m src.ingestion.fpl_api            # FPL bootstrap-static + fixtures + live GW
+python -m src.ingestion.understat_scraper  # xG/xA from Understat
+python -m src.ingestion.odds_api           # betting market odds (requires ODDS_API_KEY in .env)
+python -m src.ingestion.clubelo            # ClubElo team strength ratings
+python -m src.ingestion.injuries_from_csv  # premierinjuries.com CSV (data/manual/premierinjuries_*.csv)
+python -m src.ingestion.premier_injuries   # premierinjuries.com emails (requires GMAIL_ADDRESS + GMAIL_APP_PASSWORD in .env)
+
+# Process data
+python -m src.processing.silver            # clean bronze → silver (Parquet)
+python -m src.processing.gold              # join silver → gold feature table (Parquet)
 
 # Run pipeline
-python -m src.features.build_heuristics  # score players (heuristic)
-python -m src.optimizer.squad_builder    # pick optimal squad
+python -m src.features.build_heuristics   # score players (heuristic)
+python -m src.optimizer.squad_builder     # pick optimal squad
 ```
 
 To use the odds ingestion, add your [The Odds API](https://the-odds-api.com) key to a `.env` file:

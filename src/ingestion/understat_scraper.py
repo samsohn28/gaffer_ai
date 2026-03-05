@@ -28,7 +28,7 @@ AJAX_HEADERS = {"X-Requested-With": "XMLHttpRequest"}
 CURRENT_SEASON_YEAR = "2024"  # 2024/25 season
 REQUEST_DELAY = 0.5  # seconds between player requests
 
-OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "raw"
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "bronze"
 
 
 # ---------------------------------------------------------------------------

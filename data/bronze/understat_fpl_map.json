@@ -1,0 +1,5742 @@
+[
+  {
+    "fpl_id": 1,
+    "understat_id": "9676",
+    "fpl_name": "David Raya Mart\u00edn",
+    "understat_name": "David Raya",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 2,
+    "understat_id": null,
+    "fpl_name": "Kepa Arrizabalaga Revuelta",
+    "understat_name": "Adam Lallana",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 3,
+    "understat_id": null,
+    "fpl_name": "Karl Hein",
+    "understat_name": "Mikel Merino",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 4,
+    "understat_id": null,
+    "fpl_name": "Tommy Setford",
+    "understat_name": "Tommy Doyle",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 5,
+    "understat_id": "5613",
+    "fpl_name": "Gabriel dos Santos Magalh\u00e3es",
+    "understat_name": "Gabriel",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 6,
+    "understat_id": "6888",
+    "fpl_name": "William Saliba",
+    "understat_name": "William Saliba",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 7,
+    "understat_id": "8129",
+    "fpl_name": "Riccardo Calafiori",
+    "understat_name": "Riccardo Calafiori",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 8,
+    "understat_id": "11707",
+    "fpl_name": "Jurri\u00ebn Timber",
+    "understat_name": "Jurri\u00ebn Timber",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 9,
+    "understat_id": "10012",
+    "fpl_name": "Jakub Kiwior",
+    "understat_name": "Jakub Kiwior",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 10,
+    "understat_id": "12272",
+    "fpl_name": "Myles Lewis-Skelly",
+    "understat_name": "Myles Lewis-Skelly",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 11,
+    "understat_id": "7298",
+    "fpl_name": "Benjamin White",
+    "understat_name": "Ben White",
+    "score": 0.7826
+  },
+  {
+    "fpl_id": 13,
+    "understat_id": "13019",
+    "fpl_name": "Brayden Clarke",
+    "understat_name": "Jack Clarke",
+    "score": 0.7059
+  },
+  {
+    "fpl_id": 14,
+    "understat_id": null,
+    "fpl_name": "Maldini Kacurri",
+    "understat_name": "Yasin Ayari",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 15,
+    "understat_id": null,
+    "fpl_name": "Josh Nichols",
+    "understat_name": "Josh Acheampong",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 16,
+    "understat_id": "7322",
+    "fpl_name": "Bukayo Saka",
+    "understat_name": "Bukayo Saka",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 17,
+    "understat_id": "2517",
+    "fpl_name": "Martin \u00d8degaard",
+    "understat_name": "Martin Odegaard",
+    "score": 0.9333
+  },
+  {
+    "fpl_id": 18,
+    "understat_id": "11357",
+    "fpl_name": "Noni Madueke",
+    "understat_name": "Noni Madueke",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 19,
+    "understat_id": "7752",
+    "fpl_name": "Gabriel Martinelli Silva",
+    "understat_name": "Gabriel Martinelli",
+    "score": 0.8571
+  },
+  {
+    "fpl_id": 20,
+    "understat_id": "7698",
+    "fpl_name": "Leandro Trossard",
+    "understat_name": "Leandro Trossard",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 21,
+    "understat_id": "5553",
+    "fpl_name": "Declan Rice",
+    "understat_name": "Declan Rice",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 22,
+    "understat_id": "5304",
+    "fpl_name": "Mikel Merino Zaz\u00f3n",
+    "understat_name": "Mikel Merino",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 23,
+    "understat_id": null,
+    "fpl_name": "F\u00e1bio Ferreira Vieira",
+    "understat_name": "Fabio Carvalho",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 24,
+    "understat_id": "7083",
+    "fpl_name": "Christian N\u00f8rgaard",
+    "understat_name": "Christian N\u00f8rgaard",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 25,
+    "understat_id": "11132",
+    "fpl_name": "Ethan Nwaneri",
+    "understat_name": "Ethan Nwaneri",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 26,
+    "understat_id": null,
+    "fpl_name": "Mart\u00edn Zubimendi Ib\u00e1\u00f1ez",
+    "understat_name": "Ben Davies",
+    "score": 0.5263
+  },
+  {
+    "fpl_id": 28,
+    "understat_id": null,
+    "fpl_name": "Ismeal Kabia",
+    "understat_name": "Ismaila Sarr",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 29,
+    "understat_id": null,
+    "fpl_name": "Albert Sambi Lokonga",
+    "understat_name": "Albert Gr\u00f8nb\u00e6k",
+    "score": 0.5294
+  },
+  {
+    "fpl_id": 30,
+    "understat_id": "5220",
+    "fpl_name": "Kai Havertz",
+    "understat_name": "Kai Havertz",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 31,
+    "understat_id": "5543",
+    "fpl_name": "Gabriel Fernando de Jesus",
+    "understat_name": "Gabriel Jesus",
+    "score": 0.6842
+  },
+  {
+    "fpl_id": 266,
+    "understat_id": "8706",
+    "fpl_name": "Eberechi Eze",
+    "understat_name": "Eberechi Eze",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 662,
+    "understat_id": "7218",
+    "fpl_name": "Cristhian Mosquera",
+    "understat_name": "Cristian Romero",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 666,
+    "understat_id": "13380",
+    "fpl_name": "Viktor Gy\u00f6keres",
+    "understat_name": "Vitor Reis",
+    "score": 0.72
+  },
+  {
+    "fpl_id": 700,
+    "understat_id": "7332",
+    "fpl_name": "Max Dowman",
+    "understat_name": "Max Kilman",
+    "score": 0.7
+  },
+  {
+    "fpl_id": 711,
+    "understat_id": null,
+    "fpl_name": "Andre Harriman-Annous",
+    "understat_name": "Harry Winks",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 725,
+    "understat_id": null,
+    "fpl_name": "Piero Hincapi\u00e9",
+    "understat_name": "Pedro Lima",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 759,
+    "understat_id": "1257",
+    "fpl_name": "Marli Salmon",
+    "understat_name": "Alisson",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 32,
+    "understat_id": "4401",
+    "fpl_name": "Emiliano Mart\u00ednez Romero",
+    "understat_name": "Emiliano Martinez",
+    "score": 0.7805
+  },
+  {
+    "fpl_id": 33,
+    "understat_id": "2117",
+    "fpl_name": "Marco Bizot",
+    "understat_name": "Marco Asensio",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 34,
+    "understat_id": null,
+    "fpl_name": "Joe Gauci",
+    "understat_name": "Joel Ward",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 35,
+    "understat_id": "7908",
+    "fpl_name": "Filip Marschall",
+    "understat_name": "Marshall Munetsi",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 36,
+    "understat_id": "8864",
+    "fpl_name": "Matty Cash",
+    "understat_name": "Matthew Cash",
+    "score": 0.8182
+  },
+  {
+    "fpl_id": 37,
+    "understat_id": "1823",
+    "fpl_name": "Lucas Digne",
+    "understat_name": "Lucas Digne",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 38,
+    "understat_id": "7726",
+    "fpl_name": "Ezri Konsa Ngoyo",
+    "understat_name": "Ezri Konsa Ngoyo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 39,
+    "understat_id": "11807",
+    "fpl_name": "Ian Maatsen",
+    "understat_name": "Ian Maatsen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 40,
+    "understat_id": "1024",
+    "fpl_name": "Tyrone Mings",
+    "understat_name": "Tyrone Mings",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 41,
+    "understat_id": "6221",
+    "fpl_name": "Pau Torres",
+    "understat_name": "Pau Torres",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 42,
+    "understat_id": "13392",
+    "fpl_name": "Andr\u00e9s Garc\u00eda",
+    "understat_name": "Andr\u00e9s Garc\u00eda",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 43,
+    "understat_id": "4120",
+    "fpl_name": "\u00c1lex Moreno Lopera",
+    "understat_name": "\u00c1lex Moreno",
+    "score": 0.9091
+  },
+  {
+    "fpl_id": 44,
+    "understat_id": "10025",
+    "fpl_name": "Lamare Bogarde",
+    "understat_name": "Lamare Bogarde",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 45,
+    "understat_id": null,
+    "fpl_name": "Lino da Cruz Sousa",
+    "understat_name": "Ram\u00f3n Sosa",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 46,
+    "understat_id": "11385",
+    "fpl_name": "Yasin \u00d6zcan",
+    "understat_name": "Yasin Ayari",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 47,
+    "understat_id": "12412",
+    "fpl_name": "Morgan Rogers",
+    "understat_name": "Morgan Rogers",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 48,
+    "understat_id": "5956",
+    "fpl_name": "Youri Tielemans",
+    "understat_name": "Youri Tielemans",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 49,
+    "understat_id": "5221",
+    "fpl_name": "Leon Bailey",
+    "understat_name": "Leon Bailey",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 50,
+    "understat_id": "2203",
+    "fpl_name": "Emiliano Buend\u00eda Stati",
+    "understat_name": "Emiliano Buend\u00eda",
+    "score": 0.8421
+  },
+  {
+    "fpl_id": 51,
+    "understat_id": null,
+    "fpl_name": "Samuel Iling-Junior",
+    "understat_name": "Willian",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 53,
+    "understat_id": "9749",
+    "fpl_name": "Donyell Malen",
+    "understat_name": "Donyell Malen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 54,
+    "understat_id": "7723",
+    "fpl_name": "John McGinn",
+    "understat_name": "John McGinn",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 55,
+    "understat_id": "592",
+    "fpl_name": "Ross Barkley",
+    "understat_name": "Ross Barkley",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 56,
+    "understat_id": null,
+    "fpl_name": "Enzo Barrenechea",
+    "understat_name": "Ben Mee",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 57,
+    "understat_id": "6048",
+    "fpl_name": "Lewis Dobbin",
+    "understat_name": "Lewis Dunk",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 58,
+    "understat_id": "5789",
+    "fpl_name": "Boubacar Kamara",
+    "understat_name": "Boubacar Kamara",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 59,
+    "understat_id": "9667",
+    "fpl_name": "Amadou Onana",
+    "understat_name": "Amadou Onana",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 60,
+    "understat_id": null,
+    "fpl_name": "Ben Broggio",
+    "understat_name": "Ben Johnson",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 61,
+    "understat_id": null,
+    "fpl_name": "Leander Dendoncker",
+    "understat_name": "Alexander Isak",
+    "score": 0.5625
+  },
+  {
+    "fpl_id": 62,
+    "understat_id": "9630",
+    "fpl_name": "Jamaldeen Jimoh-Aloba",
+    "understat_name": "Kamaldeen Sulemana",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 63,
+    "understat_id": "7382",
+    "fpl_name": "Kadan Young",
+    "understat_name": "Dan Burn",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 64,
+    "understat_id": "8865",
+    "fpl_name": "Ollie Watkins",
+    "understat_name": "Ollie Watkins",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 65,
+    "understat_id": null,
+    "fpl_name": "Z\u00e9piqueno Redmond",
+    "understat_name": "Ederson",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 389,
+    "understat_id": "7546",
+    "fpl_name": "Harvey Elliott",
+    "understat_name": "Harvey Elliott",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 456,
+    "understat_id": "6345",
+    "fpl_name": "Jadon Sancho",
+    "understat_name": "Jadon Sancho",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 688,
+    "understat_id": "10747",
+    "fpl_name": "James Wright",
+    "understat_name": "James Hill",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 699,
+    "understat_id": null,
+    "fpl_name": "Douglas Luiz Soares de Paulo",
+    "understat_name": "Sasa Lukic",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 701,
+    "understat_id": "7218",
+    "fpl_name": "Triston Rowe",
+    "understat_name": "Cristian Romero",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 702,
+    "understat_id": null,
+    "fpl_name": "Bradley Burrowes",
+    "understat_name": "Pau Torres",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 703,
+    "understat_id": "12748",
+    "fpl_name": "Sam Proctor",
+    "understat_name": "Sam Morsy",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 710,
+    "understat_id": "10292",
+    "fpl_name": "Travis Patterson",
+    "understat_name": "Nathan Patterson",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 719,
+    "understat_id": "6080",
+    "fpl_name": "Victor Lindel\u00f6f",
+    "understat_name": "Victor Lindel\u00f6f",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 754,
+    "understat_id": "8563",
+    "fpl_name": "George Hemmings",
+    "understat_name": "George Hirst",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 757,
+    "understat_id": null,
+    "fpl_name": "Ronnie Hollingshead",
+    "understat_name": "Tyrone Mings",
+    "score": 0.5806
+  },
+  {
+    "fpl_id": 768,
+    "understat_id": null,
+    "fpl_name": "Leon Routh",
+    "understat_name": "Mason Mount",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 781,
+    "understat_id": "13584",
+    "fpl_name": "TJ Carroll",
+    "understat_name": "Harry Howell",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 792,
+    "understat_id": "1257",
+    "fpl_name": "Alysson Edward Franco da Rocha dos Santos",
+    "understat_name": "Alisson",
+    "score": 0.8571
+  },
+  {
+    "fpl_id": 808,
+    "understat_id": null,
+    "fpl_name": "Tammy Abraham",
+    "understat_name": "Nathan Broadhead",
+    "score": 0.5517
+  },
+  {
+    "fpl_id": 183,
+    "understat_id": null,
+    "fpl_name": "Max Wei\u00df",
+    "understat_name": "Wes Burns",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 184,
+    "understat_id": null,
+    "fpl_name": "Etienne Green",
+    "understat_name": "Antoine Semenyo",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 185,
+    "understat_id": null,
+    "fpl_name": "V\u00e1clav Hladk\u00fd",
+    "understat_name": "Harry Clarke",
+    "score": 0.4444
+  },
+  {
+    "fpl_id": 186,
+    "understat_id": "1688",
+    "fpl_name": "Connor Roberts",
+    "understat_name": "Andrew Robertson",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 187,
+    "understat_id": "638",
+    "fpl_name": "Kyle Walker",
+    "understat_name": "Kyle Walker",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 188,
+    "understat_id": "8853",
+    "fpl_name": "Hannes Delcroix",
+    "understat_name": "Maxence Lacroix",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 189,
+    "understat_id": "6424",
+    "fpl_name": "Owen Dodgson",
+    "understat_name": "Ben Johnson",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 190,
+    "understat_id": null,
+    "fpl_name": "Hjalmar Ekdal",
+    "understat_name": "Shumaira Mheuka",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 191,
+    "understat_id": null,
+    "fpl_name": "Maxime Est\u00e8ve",
+    "understat_name": "Romain Esse",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 192,
+    "understat_id": null,
+    "fpl_name": "Quilindschy Hartman",
+    "understat_name": "Harry Amass",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 193,
+    "understat_id": null,
+    "fpl_name": "Bashir Humphreys",
+    "understat_name": "Thomas Partey",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 194,
+    "understat_id": "672",
+    "fpl_name": "Jordan Beyer",
+    "understat_name": "Jordan Ayew",
+    "score": 0.7826
+  },
+  {
+    "fpl_id": 195,
+    "understat_id": "1823",
+    "fpl_name": "Lucas Pires Silva",
+    "understat_name": "Lucas Digne",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 196,
+    "understat_id": null,
+    "fpl_name": "Shurandy Sambo",
+    "understat_name": "Sam Morsy",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 197,
+    "understat_id": "12358",
+    "fpl_name": "Oliver Sonne",
+    "understat_name": "Oliver Scarles",
+    "score": 0.6923
+  },
+  {
+    "fpl_id": 198,
+    "understat_id": "934",
+    "fpl_name": "Axel Tuanzebe",
+    "understat_name": "Axel Tuanzebe",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 199,
+    "understat_id": "6630",
+    "fpl_name": "Joe Worrall",
+    "understat_name": "Joe Willock",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 200,
+    "understat_id": "11094",
+    "fpl_name": "Jaidon Anthony",
+    "understat_name": "Antony",
+    "score": 0.9231
+  },
+  {
+    "fpl_id": 201,
+    "understat_id": "6424",
+    "fpl_name": "Manuel Benson Hedilazio",
+    "understat_name": "Ben Johnson",
+    "score": 0.7059
+  },
+  {
+    "fpl_id": 202,
+    "understat_id": "8941",
+    "fpl_name": "Jacob Bruun Larsen",
+    "understat_name": "Jacob Ramsey",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 203,
+    "understat_id": null,
+    "fpl_name": "Enock Agyei",
+    "understat_name": "Renato Veiga",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 204,
+    "understat_id": "10327",
+    "fpl_name": "Darko Churlinov",
+    "understat_name": "Chiquinho",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 205,
+    "understat_id": "12535",
+    "fpl_name": "Josh Cullen",
+    "understat_name": "Josh Acheampong",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 206,
+    "understat_id": "12753",
+    "fpl_name": "Marcus Edwards",
+    "understat_name": "Marcus Harness",
+    "score": 0.7143
+  },
+  {
+    "fpl_id": 207,
+    "understat_id": null,
+    "fpl_name": "Hannibal Mejbri",
+    "understat_name": "Ethan Nwaneri",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 208,
+    "understat_id": null,
+    "fpl_name": "Luca Koleosho",
+    "understat_name": "Caleb Okoli",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 209,
+    "understat_id": null,
+    "fpl_name": "Josh Laurent",
+    "understat_name": "Josh Acheampong",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 210,
+    "understat_id": null,
+    "fpl_name": "Loum Tchaouna",
+    "understat_name": "Thiago",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 211,
+    "understat_id": "5603",
+    "fpl_name": "Aaron Ramsey",
+    "understat_name": "Aaron Ramsdale",
+    "score": 0.8462
+  },
+  {
+    "fpl_id": 212,
+    "understat_id": null,
+    "fpl_name": "Oluwaseun Adewumi",
+    "understat_name": "Casemiro",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 213,
+    "understat_id": "6345",
+    "fpl_name": "Jaydon Banel",
+    "understat_name": "Jadon Sancho",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 214,
+    "understat_id": null,
+    "fpl_name": "Mike Tr\u00e9sor Ndayishimiye",
+    "understat_name": "Rodri",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 215,
+    "understat_id": null,
+    "fpl_name": "Zian Flemming",
+    "understat_name": "Mario Lemina",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 216,
+    "understat_id": "9667",
+    "fpl_name": "Zeki Amdouni",
+    "understat_name": "Amadou Onana",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 217,
+    "understat_id": "831",
+    "fpl_name": "Lyle Foster",
+    "understat_name": "Fraser Forster",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 218,
+    "understat_id": "6681",
+    "fpl_name": "Ashley Barnes",
+    "understat_name": "Harvey Barnes",
+    "score": 0.7692
+  },
+  {
+    "fpl_id": 219,
+    "understat_id": "1653",
+    "fpl_name": "Michael Obafemi",
+    "understat_name": "Michael Keane",
+    "score": 0.7143
+  },
+  {
+    "fpl_id": 470,
+    "understat_id": "6532",
+    "fpl_name": "Martin D\u00fabravka",
+    "understat_name": "Martin Dubravka",
+    "score": 0.9333
+  },
+  {
+    "fpl_id": 614,
+    "understat_id": "843",
+    "fpl_name": "James Ward-Prowse",
+    "understat_name": "James Ward-Prowse",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 676,
+    "understat_id": "9451",
+    "fpl_name": "Lesley Ugochukwu",
+    "understat_name": "Chimuanya Ugochukwu",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 680,
+    "understat_id": "8384",
+    "fpl_name": "Armando Broja",
+    "understat_name": "Armando Broja",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 722,
+    "understat_id": null,
+    "fpl_name": "Florentino Ibrain Morris Lu\u00eds",
+    "understat_name": "\u00c1lex Moreno",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 776,
+    "understat_id": "7198",
+    "fpl_name": "Oliver Pimlott",
+    "understat_name": "Oliver Skipp",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 784,
+    "understat_id": "5613",
+    "fpl_name": "George Brierley",
+    "understat_name": "Gabriel",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 820,
+    "understat_id": null,
+    "fpl_name": "Kian McMahon-Brown",
+    "understat_name": "Eiran Cashin",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 66,
+    "understat_id": "1297",
+    "fpl_name": "Norberto Murara Neto",
+    "understat_name": "Neto",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 67,
+    "understat_id": null,
+    "fpl_name": "\u0110or\u0111e Petrovi\u0107",
+    "understat_name": "Pedro Lima",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 68,
+    "understat_id": "13302",
+    "fpl_name": "Will Dennis",
+    "understat_name": "Will Alves",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 69,
+    "understat_id": null,
+    "fpl_name": "Callan McKenna",
+    "understat_name": "Declan Rice",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 70,
+    "understat_id": "1038",
+    "fpl_name": "Alex Paulsen",
+    "understat_name": "Alex Palmer",
+    "score": 0.7826
+  },
+  {
+    "fpl_id": 71,
+    "understat_id": "11486",
+    "fpl_name": "Illia Zabarnyi",
+    "understat_name": "Illia Zabarnyi",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 72,
+    "understat_id": "10864",
+    "fpl_name": "Marcos Senesi Bar\u00f3n",
+    "understat_name": "Marcos Senesi",
+    "score": 0.8125
+  },
+  {
+    "fpl_id": 73,
+    "understat_id": "825",
+    "fpl_name": "Adam Smith",
+    "understat_name": "Adam Smith",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 74,
+    "understat_id": null,
+    "fpl_name": "Adrien Truffert",
+    "understat_name": "Andrew Robertson",
+    "score": 0.5806
+  },
+  {
+    "fpl_id": 75,
+    "understat_id": "531",
+    "fpl_name": "Matai Akinmboni",
+    "understat_name": "Michail Antonio",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 76,
+    "understat_id": "807",
+    "fpl_name": "Owen Bevan",
+    "understat_name": "Jonny Evans",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 77,
+    "understat_id": "10747",
+    "fpl_name": "James Hill",
+    "understat_name": "James Hill",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 78,
+    "understat_id": "11745",
+    "fpl_name": "Juli\u00e1n Araujo Z\u00fa\u00f1iga",
+    "understat_name": "Juli\u00e1n Araujo",
+    "score": 0.7879
+  },
+  {
+    "fpl_id": 79,
+    "understat_id": "8430",
+    "fpl_name": "Chris Mepham",
+    "understat_name": "Chris Richards",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 80,
+    "understat_id": "13474",
+    "fpl_name": "Julio Soler Barreto",
+    "understat_name": "Julio Soler",
+    "score": 0.7333
+  },
+  {
+    "fpl_id": 81,
+    "understat_id": "6963",
+    "fpl_name": "Justin Kluivert",
+    "understat_name": "Justin Kluivert",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 84,
+    "understat_id": "10741",
+    "fpl_name": "Marcus Tavernier",
+    "understat_name": "Marcus Tavernier",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 85,
+    "understat_id": "7352",
+    "fpl_name": "Tyler Adams",
+    "understat_name": "Tyler Adams",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 86,
+    "understat_id": "6820",
+    "fpl_name": "David Brooks",
+    "understat_name": "David Brooks",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 87,
+    "understat_id": "10744",
+    "fpl_name": "Ryan Christie",
+    "understat_name": "Ryan Christie",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 88,
+    "understat_id": "1789",
+    "fpl_name": "Lewis Cook",
+    "understat_name": "Lewis Cook",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 89,
+    "understat_id": "6034",
+    "fpl_name": "Philip Billing",
+    "understat_name": "Philip Billing",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 90,
+    "understat_id": "12149",
+    "fpl_name": "Alex Scott",
+    "understat_name": "Alex Scott",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 91,
+    "understat_id": "10866",
+    "fpl_name": "Luis Sinisterra Lucum\u00ed",
+    "understat_name": "Luis Sinisterra",
+    "score": 0.8108
+  },
+  {
+    "fpl_id": 92,
+    "understat_id": "13387",
+    "fpl_name": "Romain Faivre",
+    "understat_name": "Romain Esse",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 93,
+    "understat_id": "900",
+    "fpl_name": "Hamed Traor\u00e8",
+    "understat_name": "Adama Traor\u00e9",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 94,
+    "understat_id": "1679",
+    "fpl_name": "Dominic Sadi",
+    "understat_name": "Dominic Solanke",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 95,
+    "understat_id": "13351",
+    "fpl_name": "Zain Silcott-Duberry",
+    "understat_name": "Zain Silcott-Duberry",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 96,
+    "understat_id": "13242",
+    "fpl_name": "Ben Winterburn",
+    "understat_name": "Ben Winterburn",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 97,
+    "understat_id": "12963",
+    "fpl_name": "Francisco Evanilson de Lima Barbosa",
+    "understat_name": "Evanilson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 98,
+    "understat_id": "6219",
+    "fpl_name": "Enes \u00dcnal",
+    "understat_name": "Enes \u00dcnal",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 99,
+    "understat_id": "9509",
+    "fpl_name": "Daniel Adu-Adjei",
+    "understat_name": "Daniel Jebbison",
+    "score": 0.6452
+  },
+  {
+    "fpl_id": 100,
+    "understat_id": null,
+    "fpl_name": "Junior Kroupi",
+    "understat_name": "Noussair Mazraoui",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 391,
+    "understat_id": null,
+    "fpl_name": "Ben Gannon-Doak",
+    "understat_name": "Patson Daka",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 685,
+    "understat_id": null,
+    "fpl_name": "Bafod\u00e9 Diakit\u00e9",
+    "understat_name": "Bukayo Saka",
+    "score": 0.48
+  },
+  {
+    "fpl_id": 687,
+    "understat_id": "13307",
+    "fpl_name": "Remy Rees-Dottin",
+    "understat_name": "Remy Rees-Dottin",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 697,
+    "understat_id": "755",
+    "fpl_name": "Amine Adli",
+    "understat_name": "Jamie Vardy",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 713,
+    "understat_id": "4105",
+    "fpl_name": "\u00c1lex Jim\u00e9nez S\u00e1nchez",
+    "understat_name": "Ra\u00fal Jim\u00e9nez",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 721,
+    "understat_id": null,
+    "fpl_name": "Veljko Milosavljevic",
+    "understat_name": "Nikola Milenkovic",
+    "score": 0.5405
+  },
+  {
+    "fpl_id": 756,
+    "understat_id": null,
+    "fpl_name": "Malcom DaCosta",
+    "understat_name": "Malo Gusto",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 782,
+    "understat_id": "831",
+    "fpl_name": "Fraser Forster",
+    "understat_name": "Fraser Forster",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 799,
+    "understat_id": "6044",
+    "fpl_name": "Charlie Stevens",
+    "understat_name": "Charlie Taylor",
+    "score": 0.6207
+  },
+  {
+    "fpl_id": 801,
+    "understat_id": "12149",
+    "fpl_name": "Alex T\u00f3th",
+    "understat_name": "Alex Scott",
+    "score": 0.7368
+  },
+  {
+    "fpl_id": 806,
+    "understat_id": null,
+    "fpl_name": "Christos Mandas",
+    "understat_name": "Christian Walton",
+    "score": 0.5806
+  },
+  {
+    "fpl_id": 807,
+    "understat_id": null,
+    "fpl_name": "Rayan Vitor Simpl\u00edcio Rocha",
+    "understat_name": "Ryan Yates",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 27,
+    "understat_id": "6492",
+    "fpl_name": "Reiss Nelson",
+    "understat_name": "Reiss Nelson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 83,
+    "understat_id": "9662",
+    "fpl_name": "Dango Ouattara",
+    "understat_name": "Dango Ouattara",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 101,
+    "understat_id": "7904",
+    "fpl_name": "Caoimh\u00edn Kelleher",
+    "understat_name": "Caoimhin Kelleher",
+    "score": 0.9412
+  },
+  {
+    "fpl_id": 102,
+    "understat_id": null,
+    "fpl_name": "Ellery Balcombe",
+    "understat_name": "Cole Palmer",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 103,
+    "understat_id": "8864",
+    "fpl_name": "Matthew Cox",
+    "understat_name": "Matthew Cash",
+    "score": 0.7826
+  },
+  {
+    "fpl_id": 104,
+    "understat_id": "1245",
+    "fpl_name": "Julian Eyestone",
+    "understat_name": "Emerson",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 105,
+    "understat_id": "12595",
+    "fpl_name": "H\u00e1kon Rafn Valdimarsson",
+    "understat_name": "H\u00e1kon Valdimarsson",
+    "score": 0.878
+  },
+  {
+    "fpl_id": 106,
+    "understat_id": "9733",
+    "fpl_name": "Nathan Collins",
+    "understat_name": "Nathan Collins",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 107,
+    "understat_id": "10809",
+    "fpl_name": "Keane Lewis-Potter",
+    "understat_name": "Keane Lewis-Potter",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 108,
+    "understat_id": "9677",
+    "fpl_name": "Kristoffer Ajer",
+    "understat_name": "Kristoffer Ajer",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 109,
+    "understat_id": "9679",
+    "fpl_name": "Rico Henry",
+    "understat_name": "Rico Henry",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 110,
+    "understat_id": "11281",
+    "fpl_name": "Michael Kayode",
+    "understat_name": "Michael Kayode",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 111,
+    "understat_id": "9678",
+    "fpl_name": "Ethan Pinnock",
+    "understat_name": "Ethan Pinnock",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 112,
+    "understat_id": "9685",
+    "fpl_name": "Mads Roerslev Rasmussen",
+    "understat_name": "Mads Roerslev",
+    "score": 0.7619
+  },
+  {
+    "fpl_id": 113,
+    "understat_id": "10721",
+    "fpl_name": "Sepp van den Berg",
+    "understat_name": "Sepp van den Berg",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 114,
+    "understat_id": null,
+    "fpl_name": "Benjamin Arthur",
+    "understat_name": "Cameron Archer",
+    "score": 0.5517
+  },
+  {
+    "fpl_id": 115,
+    "understat_id": "2496",
+    "fpl_name": "Benjamin Fredrick",
+    "understat_name": "Rodri",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 116,
+    "understat_id": null,
+    "fpl_name": "Aaron Hickey",
+    "understat_name": "Aaron Cresswell",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 117,
+    "understat_id": "12136",
+    "fpl_name": "Kim Ji-soo",
+    "understat_name": "Kim Ji-Soo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 118,
+    "understat_id": "13067",
+    "fpl_name": "Jayden Meghoma",
+    "understat_name": "Jayden Meghoma",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 120,
+    "understat_id": "9156",
+    "fpl_name": "Kevin Schade",
+    "understat_name": "Kevin Schade",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 121,
+    "understat_id": "8859",
+    "fpl_name": "Mikkel Damsgaard",
+    "understat_name": "Mikkel Damsgaard",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 122,
+    "understat_id": null,
+    "fpl_name": "Antoni Milambo",
+    "understat_name": "Anthony Elanga",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 123,
+    "understat_id": "9501",
+    "fpl_name": "F\u00e1bio Freitas Gouveia Carvalho",
+    "understat_name": "Fabio Carvalho",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 124,
+    "understat_id": "6054",
+    "fpl_name": "Jordan Henderson",
+    "understat_name": "Ederson",
+    "score": 0.875
+  },
+  {
+    "fpl_id": 125,
+    "understat_id": "9680",
+    "fpl_name": "Vitaly Janelt",
+    "understat_name": "Vitaly Janelt",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 126,
+    "understat_id": "7166",
+    "fpl_name": "Mathias Jensen",
+    "understat_name": "Mathias Jensen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 127,
+    "understat_id": "13588",
+    "fpl_name": "Gustavo Nunes Fernandes Gomes",
+    "understat_name": "Gustavo Nunes",
+    "score": 0.619
+  },
+  {
+    "fpl_id": 128,
+    "understat_id": "9681",
+    "fpl_name": "Frank Onyeka",
+    "understat_name": "Frank Onyeka",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 129,
+    "understat_id": "11772",
+    "fpl_name": "Yehor Yarmoliuk",
+    "understat_name": "Yehor Yarmolyuk",
+    "score": 0.9333
+  },
+  {
+    "fpl_id": 130,
+    "understat_id": null,
+    "fpl_name": "Romelle Donovan",
+    "understat_name": "Jonny Evans",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 131,
+    "understat_id": "12633",
+    "fpl_name": "Yunus Emre Konak",
+    "understat_name": "Yunus Konak",
+    "score": 0.8148
+  },
+  {
+    "fpl_id": 132,
+    "understat_id": "10053",
+    "fpl_name": "Paris Maghoma",
+    "understat_name": "Paris Maghoma",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 133,
+    "understat_id": null,
+    "fpl_name": "Myles Peart-Harris",
+    "understat_name": "Jack Harrison",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 134,
+    "understat_id": "11146",
+    "fpl_name": "Ryan Trevitt",
+    "understat_name": "Ryan Trevitt",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 136,
+    "understat_id": "13222",
+    "fpl_name": "Igor Thiago Nascimento Rodrigues",
+    "understat_name": "Thiago",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 137,
+    "understat_id": "13068",
+    "fpl_name": "Iwan Morgan",
+    "understat_name": "Morato",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 748,
+    "understat_id": "12766",
+    "fpl_name": "Josh Dasilva",
+    "understat_name": "Jota Silva",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 797,
+    "understat_id": null,
+    "fpl_name": "Kaye Furo",
+    "understat_name": "Murillo",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 810,
+    "understat_id": "9983",
+    "fpl_name": "Luka Bentt",
+    "understat_name": "Beto",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 819,
+    "understat_id": null,
+    "fpl_name": "Ollie Shield",
+    "understat_name": "Oliver Skipp",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 138,
+    "understat_id": "7235",
+    "fpl_name": "Jason Steele",
+    "understat_name": "Jason Steele",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 139,
+    "understat_id": "11711",
+    "fpl_name": "Bart Verbruggen",
+    "understat_name": "Bart Verbruggen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 140,
+    "understat_id": "12123",
+    "fpl_name": "Tom McGill",
+    "understat_name": "Murillo",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 141,
+    "understat_id": null,
+    "fpl_name": "Carl Rushworth",
+    "understat_name": "Marcus Rashford",
+    "score": 0.5517
+  },
+  {
+    "fpl_id": 142,
+    "understat_id": null,
+    "fpl_name": "Kjell Scherpen",
+    "understat_name": "Djed Spence",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 143,
+    "understat_id": "12358",
+    "fpl_name": "Olivier Boscagli",
+    "understat_name": "Oliver Scarles",
+    "score": 0.7333
+  },
+  {
+    "fpl_id": 144,
+    "understat_id": "5712",
+    "fpl_name": "Diego Coppola",
+    "understat_name": "Diego Carlos",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 145,
+    "understat_id": null,
+    "fpl_name": "Maxim De Cuyper",
+    "understat_name": "Kevin De Bruyne",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 146,
+    "understat_id": "6048",
+    "fpl_name": "Lewis Dunk",
+    "understat_name": "Lewis Dunk",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 147,
+    "understat_id": "5136",
+    "fpl_name": "Pervis Estupi\u00f1\u00e1n Tenorio",
+    "understat_name": "Estupi\u00f1\u00e1n",
+    "score": 0.8889
+  },
+  {
+    "fpl_id": 148,
+    "understat_id": "13066",
+    "fpl_name": "Ferdi Kad\u0131o\u011flu",
+    "understat_name": "Ferdi Kadioglu",
+    "score": 0.8571
+  },
+  {
+    "fpl_id": 149,
+    "understat_id": "13222",
+    "fpl_name": "Igor Julio dos Santos de Paulo",
+    "understat_name": "Thiago",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 150,
+    "understat_id": "8226",
+    "fpl_name": "Tariq Lamptey",
+    "understat_name": "Tariq Lamptey",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 151,
+    "understat_id": "10807",
+    "fpl_name": "Jan Paul van Hecke",
+    "understat_name": "Jan Paul van Hecke",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 152,
+    "understat_id": "8780",
+    "fpl_name": "Jo\u00ebl Veltman",
+    "understat_name": "Jo\u00ebl Veltman",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 153,
+    "understat_id": "7699",
+    "fpl_name": "Adam Webster",
+    "understat_name": "Adam Webster",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 154,
+    "understat_id": "13459",
+    "fpl_name": "Eiran Cashin",
+    "understat_name": "Eiran Cashin",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 155,
+    "understat_id": "8941",
+    "fpl_name": "Jacob Slater",
+    "understat_name": "Jacob Ramsey",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 156,
+    "understat_id": "6044",
+    "fpl_name": "Charlie Tasker",
+    "understat_name": "Charlie Taylor",
+    "score": 0.7857
+  },
+  {
+    "fpl_id": 157,
+    "understat_id": "10806",
+    "fpl_name": "Mitoma Kaoru",
+    "understat_name": "Kaoru Mitoma",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 158,
+    "understat_id": "6937",
+    "fpl_name": "Georginio Rutter",
+    "understat_name": "Georginio Rutter",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 159,
+    "understat_id": "6049",
+    "fpl_name": "Solly March",
+    "understat_name": "Solly March",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 160,
+    "understat_id": "12759",
+    "fpl_name": "Yankuba Minteh",
+    "understat_name": "Yankuba Minteh",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 161,
+    "understat_id": "11058",
+    "fpl_name": "Julio Enciso Esp\u00ednola",
+    "understat_name": "Julio Enciso",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 162,
+    "understat_id": "11310",
+    "fpl_name": "Brajan Gruda",
+    "understat_name": "Brajan Gruda",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 163,
+    "understat_id": "11269",
+    "fpl_name": "Jack Hinshelwood",
+    "understat_name": "Jack Hinshelwood",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 164,
+    "understat_id": "13206",
+    "fpl_name": "Matt O'Riley",
+    "understat_name": "Matt O&#039;Riley",
+    "score": 0.7586
+  },
+  {
+    "fpl_id": 165,
+    "understat_id": null,
+    "fpl_name": "Abdallah Sima",
+    "understat_name": "Adam Lallana",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 166,
+    "understat_id": "11385",
+    "fpl_name": "Yasin Ayari",
+    "understat_name": "Yasin Ayari",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 167,
+    "understat_id": "10527",
+    "fpl_name": "Carlos Baleba",
+    "understat_name": "Carlos Baleba",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 169,
+    "understat_id": "13364",
+    "fpl_name": "Diego G\u00f3mez Amarilla",
+    "understat_name": "Diego G\u00f3mez",
+    "score": 0.7097
+  },
+  {
+    "fpl_id": 170,
+    "understat_id": "489",
+    "fpl_name": "James Milner",
+    "understat_name": "James Milner",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 171,
+    "understat_id": "10036",
+    "fpl_name": "Jeremy Sarmiento Morante",
+    "understat_name": "Jeremy Sarmiento",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 172,
+    "understat_id": "11094",
+    "fpl_name": "Tom Watson",
+    "understat_name": "Antony",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 173,
+    "understat_id": "12758",
+    "fpl_name": "Mats Wieffer",
+    "understat_name": "Mats Wieffer",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 174,
+    "understat_id": null,
+    "fpl_name": "Malick Yalcouy\u00e9",
+    "understat_name": "Jack Taylor",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 175,
+    "understat_id": null,
+    "fpl_name": "Joe Knight",
+    "understat_name": "Joshua King",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 176,
+    "understat_id": null,
+    "fpl_name": "Adrian Mazilu",
+    "understat_name": "Arijanet Muric",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 177,
+    "understat_id": "13068",
+    "fpl_name": "Andrew Moran",
+    "understat_name": "Morato",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 178,
+    "understat_id": "501",
+    "fpl_name": "Danny Welbeck",
+    "understat_name": "Danny Welbeck",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 179,
+    "understat_id": "10177",
+    "fpl_name": "Evan Ferguson",
+    "understat_name": "Evan Ferguson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 180,
+    "understat_id": "8852",
+    "fpl_name": "Stefanos Tzimas",
+    "understat_name": "Konstantinos Tsimikas",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 181,
+    "understat_id": null,
+    "fpl_name": "Charalampos Kostoulas",
+    "understat_name": "Carlos Soler",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 744,
+    "understat_id": null,
+    "fpl_name": "Nehemiah Oriola",
+    "understat_name": "Jorginho",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 761,
+    "understat_id": null,
+    "fpl_name": "Freddie Simmonds",
+    "understat_name": "Sam Morsy",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 783,
+    "understat_id": null,
+    "fpl_name": "Pascal Gro\u00df",
+    "understat_name": "Martial Godo",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 795,
+    "understat_id": "13584",
+    "fpl_name": "Harry Howell",
+    "understat_name": "Harry Howell",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 220,
+    "understat_id": "9098",
+    "fpl_name": "Robert Lynch S\u00e1nchez",
+    "understat_name": "Robert S\u00e1nchez",
+    "score": 0.8235
+  },
+  {
+    "fpl_id": 221,
+    "understat_id": "9272",
+    "fpl_name": "Filip J\u00f6rgensen",
+    "understat_name": "Filip Jorgensen",
+    "score": 0.9333
+  },
+  {
+    "fpl_id": 222,
+    "understat_id": "6054",
+    "fpl_name": "Mike Penders",
+    "understat_name": "Ederson",
+    "score": 0.7143
+  },
+  {
+    "fpl_id": 223,
+    "understat_id": "5543",
+    "fpl_name": "Gabriel S\u0142onina",
+    "understat_name": "Gabriel Jesus",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 224,
+    "understat_id": "7134",
+    "fpl_name": "Marc Cucurella Saseta",
+    "understat_name": "Marc Cucurella",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 225,
+    "understat_id": "8067",
+    "fpl_name": "Reece James",
+    "understat_name": "Reece James",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 226,
+    "understat_id": "6615",
+    "fpl_name": "Trevoh Chalobah",
+    "understat_name": "Trevoh Chalobah",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 227,
+    "understat_id": "10805",
+    "fpl_name": "Levi Samuels Colwill",
+    "understat_name": "Levi Colwill",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 228,
+    "understat_id": "9017",
+    "fpl_name": "Malo Gusto",
+    "understat_name": "Malo Gusto",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 229,
+    "understat_id": "7240",
+    "fpl_name": "Beno\u00eet Badiashile Mukinayi",
+    "understat_name": "Benoit Badiashile Mukinayi",
+    "score": 0.9615
+  },
+  {
+    "fpl_id": 230,
+    "understat_id": "7589",
+    "fpl_name": "Wesley Fofana",
+    "understat_name": "Wesley Fofana",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 231,
+    "understat_id": "5675",
+    "fpl_name": "Mamadou Sarr",
+    "understat_name": "Ismaila Sarr",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 232,
+    "understat_id": "5590",
+    "fpl_name": "Tosin Adarabioyo",
+    "understat_name": "Tosin Adarabioyo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 233,
+    "understat_id": "12535",
+    "fpl_name": "Josh Acheampong",
+    "understat_name": "Josh Acheampong",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 234,
+    "understat_id": "2248",
+    "fpl_name": "Aar\u00f3n Anselmino",
+    "understat_name": "Casemiro",
+    "score": 0.7059
+  },
+  {
+    "fpl_id": 235,
+    "understat_id": "8497",
+    "fpl_name": "Cole Palmer",
+    "understat_name": "Cole Palmer",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 236,
+    "understat_id": "1297",
+    "fpl_name": "Pedro Lomba Neto",
+    "understat_name": "Neto",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 237,
+    "understat_id": "11356",
+    "fpl_name": "Enzo Fern\u00e1ndez",
+    "understat_name": "Enzo Fern\u00e1ndez",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 238,
+    "understat_id": null,
+    "fpl_name": "Est\u00eav\u00e3o Almeida de Oliveira Gon\u00e7alves",
+    "understat_name": "Beto",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 239,
+    "understat_id": null,
+    "fpl_name": "Jamie Bynoe-Gittens",
+    "understat_name": "James Bree",
+    "score": 0.5517
+  },
+  {
+    "fpl_id": 240,
+    "understat_id": "3300",
+    "fpl_name": "Christopher Nkunku",
+    "understat_name": "Christopher Nkunku",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 241,
+    "understat_id": "9453",
+    "fpl_name": "Mois\u00e9s Caicedo Corozo",
+    "understat_name": "Mois\u00e9s Caicedo",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 244,
+    "understat_id": "10004",
+    "fpl_name": "Rom\u00e9o Lavia",
+    "understat_name": "Romeo Lavia",
+    "score": 0.9091
+  },
+  {
+    "fpl_id": 245,
+    "understat_id": "11305",
+    "fpl_name": "Mykhailo Mudryk",
+    "understat_name": "Mykhailo Mudryk",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 246,
+    "understat_id": "10036",
+    "fpl_name": "Andrey Nascimento dos Santos",
+    "understat_name": "Jeremy Sarmiento",
+    "score": 0.6207
+  },
+  {
+    "fpl_id": 247,
+    "understat_id": null,
+    "fpl_name": "D\u00e1rio Lu\u00eds Essugo",
+    "understat_name": "Ederson",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 248,
+    "understat_id": null,
+    "fpl_name": "Kendry P\u00e1ez Andrade",
+    "understat_name": "Kepa",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 249,
+    "understat_id": "8272",
+    "fpl_name": "Jo\u00e3o Pedro Junqueira de Jesus",
+    "understat_name": "Jo\u00e3o Pedro",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 250,
+    "understat_id": "8868",
+    "fpl_name": "Liam Delap",
+    "understat_name": "Liam Delap",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 251,
+    "understat_id": "10048",
+    "fpl_name": "Nicolas Jackson",
+    "understat_name": "Nicolas Jackson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 252,
+    "understat_id": "11633",
+    "fpl_name": "Marc Guiu Paz",
+    "understat_name": "Marc Guiu",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 453,
+    "understat_id": "10552",
+    "fpl_name": "Alejandro Garnacho Ferreyra",
+    "understat_name": "Alejandro Garnacho",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 672,
+    "understat_id": "87",
+    "fpl_name": "Jorrel Hato",
+    "understat_name": "Joelinton",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 743,
+    "understat_id": "11363",
+    "fpl_name": "Landon Emenalo",
+    "understat_name": "Antoine Semenyo",
+    "score": 0.6897
+  },
+  {
+    "fpl_id": 789,
+    "understat_id": null,
+    "fpl_name": "Max Merrick",
+    "understat_name": "Alex Palmer",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 803,
+    "understat_id": null,
+    "fpl_name": "Teddy Sharman-Lowe",
+    "understat_name": "Mads Hermansen",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 253,
+    "understat_id": "7702",
+    "fpl_name": "Dean Henderson",
+    "understat_name": "Dean Henderson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 254,
+    "understat_id": "7298",
+    "fpl_name": "Walter Ben\u00edtez",
+    "understat_name": "Ben White",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 255,
+    "understat_id": "8864",
+    "fpl_name": "Remi Matthews",
+    "understat_name": "Matthew Cash",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 256,
+    "understat_id": "12408",
+    "fpl_name": "Daniel Mu\u00f1oz Mej\u00eda",
+    "understat_name": "Daniel Mu\u00f1oz",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 257,
+    "understat_id": "8853",
+    "fpl_name": "Maxence Lacroix",
+    "understat_name": "Maxence Lacroix",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 258,
+    "understat_id": "8214",
+    "fpl_name": "Tyrick Mitchell",
+    "understat_name": "Tyrick Mitchell",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 259,
+    "understat_id": "13021",
+    "fpl_name": "Borna Sosa",
+    "understat_name": "Ram\u00f3n Sosa",
+    "score": 0.7
+  },
+  {
+    "fpl_id": 261,
+    "understat_id": "8430",
+    "fpl_name": "Chris Richards",
+    "understat_name": "Chris Richards",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 262,
+    "understat_id": "11167",
+    "fpl_name": "Chadi Riad Dnanou",
+    "understat_name": "Chadi Riad",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 263,
+    "understat_id": "603",
+    "fpl_name": "Nathaniel Clyne",
+    "understat_name": "Nathaniel Clyne",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 264,
+    "understat_id": "6962",
+    "fpl_name": "Rob Holding",
+    "understat_name": "Robin Olsen",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 265,
+    "understat_id": "13130",
+    "fpl_name": "Caleb Kporha",
+    "understat_name": "Caleb Kporha",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 267,
+    "understat_id": "5675",
+    "fpl_name": "Isma\u00efla Sarr",
+    "understat_name": "Ismaila Sarr",
+    "score": 0.9167
+  },
+  {
+    "fpl_id": 268,
+    "understat_id": "8666",
+    "fpl_name": "Cheick Doucour\u00e9",
+    "understat_name": "Cheick Oumar Doucoure",
+    "score": 0.7778
+  },
+  {
+    "fpl_id": 269,
+    "understat_id": "13387",
+    "fpl_name": "Romain Esse",
+    "understat_name": "Romain Esse",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 270,
+    "understat_id": "6104",
+    "fpl_name": "Will Hughes",
+    "understat_name": "Will Hughes",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 271,
+    "understat_id": "6145",
+    "fpl_name": "Daichi Kamada",
+    "understat_name": "Daichi Kamada",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 272,
+    "understat_id": "2182",
+    "fpl_name": "Jefferson Lerma Sol\u00eds",
+    "understat_name": "Jefferson Lerma",
+    "score": 0.8333
+  },
+  {
+    "fpl_id": 273,
+    "understat_id": "12409",
+    "fpl_name": "Adam Wharton",
+    "understat_name": "Adam Wharton",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 274,
+    "understat_id": "13039",
+    "fpl_name": "Asher Agbinone",
+    "understat_name": "Asher Agbinone",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 275,
+    "understat_id": "6145",
+    "fpl_name": "Naouirou Ahamada",
+    "understat_name": "Daichi Kamada",
+    "score": 0.7
+  },
+  {
+    "fpl_id": 276,
+    "understat_id": "13038",
+    "fpl_name": "Justin Devenny",
+    "understat_name": "Justin Devenny",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 277,
+    "understat_id": null,
+    "fpl_name": "Malcolm Ebiowei",
+    "understat_name": "Marco Asensio",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 278,
+    "understat_id": null,
+    "fpl_name": "Jesurun Rak-Sakyi",
+    "understat_name": "James Tarkowski",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 279,
+    "understat_id": "12152",
+    "fpl_name": "Matheus Fran\u00e7a de Oliveira",
+    "understat_name": "Matheus Fran\u00e7a",
+    "score": 0.7
+  },
+  {
+    "fpl_id": 280,
+    "understat_id": "6820",
+    "fpl_name": "David Ozoh",
+    "understat_name": "David Brooks",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 281,
+    "understat_id": "8089",
+    "fpl_name": "Kaden Rodney",
+    "understat_name": "Kieran Tierney",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 282,
+    "understat_id": null,
+    "fpl_name": "Franco Umeh-Chibueze",
+    "understat_name": "Federico Chiesa",
+    "score": 0.5143
+  },
+  {
+    "fpl_id": 283,
+    "understat_id": "5735",
+    "fpl_name": "Jean-Philippe Mateta",
+    "understat_name": "Jean-Philippe Mateta",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 284,
+    "understat_id": "6482",
+    "fpl_name": "Eddie Nketiah",
+    "understat_name": "Eddie Nketiah",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 285,
+    "understat_id": "3697",
+    "fpl_name": "Odsonne \u00c9douard",
+    "understat_name": "Odsonne Edouard",
+    "score": 0.9333
+  },
+  {
+    "fpl_id": 286,
+    "understat_id": "8393",
+    "fpl_name": "Zach Marsh",
+    "understat_name": "Omar Marmoush",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 580,
+    "understat_id": "10760",
+    "fpl_name": "Brennan Johnson",
+    "understat_name": "Brennan Johnson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 654,
+    "understat_id": "11070",
+    "fpl_name": "J\u00f8rgen Strand Larsen",
+    "understat_name": "J\u00f8rgen Strand Larsen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 677,
+    "understat_id": "10177",
+    "fpl_name": "Evann Guessand",
+    "understat_name": "Evan Ferguson",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 690,
+    "understat_id": "1823",
+    "fpl_name": "Rio Cardines",
+    "understat_name": "Lucas Digne",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 712,
+    "understat_id": null,
+    "fpl_name": "Y\u00e9remy Pino Santos",
+    "understat_name": "Jeremy Sarmiento",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 723,
+    "understat_id": "12455",
+    "fpl_name": "Jaydee Canvot",
+    "understat_name": "Jayden Danns",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 732,
+    "understat_id": "646",
+    "fpl_name": "Christantus Uche",
+    "understat_name": "Christian Eriksen",
+    "score": 0.6061
+  },
+  {
+    "fpl_id": 762,
+    "understat_id": "8562",
+    "fpl_name": "Jo\u00e9l Drakes-Thomas",
+    "understat_name": "Luke Thomas",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 773,
+    "understat_id": "6042",
+    "fpl_name": "Dean Benamar",
+    "understat_name": "Jan Bednarek",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 780,
+    "understat_id": "11409",
+    "fpl_name": "Ben Casey",
+    "understat_name": "Kaelan Casey",
+    "score": 0.7619
+  },
+  {
+    "fpl_id": 793,
+    "understat_id": "8563",
+    "fpl_name": "George King",
+    "understat_name": "George Hirst",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 798,
+    "understat_id": "986",
+    "fpl_name": "Danny Imray",
+    "understat_name": "Danny Ings",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 242,
+    "understat_id": "9739",
+    "fpl_name": "Kiernan Dewsbury-Hall",
+    "understat_name": "Kiernan Dewsbury-Hall",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 243,
+    "understat_id": "12573",
+    "fpl_name": "Tyrique George",
+    "understat_name": "Tyrique George",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 287,
+    "understat_id": "741",
+    "fpl_name": "Jordan Pickford",
+    "understat_name": "Jordan Pickford",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 288,
+    "understat_id": "7582",
+    "fpl_name": "Mark Travers",
+    "understat_name": "Mark Travers",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 289,
+    "understat_id": "13133",
+    "fpl_name": "Harry Tyrer",
+    "understat_name": "Harry Clarke",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 290,
+    "understat_id": "8476",
+    "fpl_name": "Jarrad Branthwaite",
+    "understat_name": "Jarrad Branthwaite",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 291,
+    "understat_id": "1665",
+    "fpl_name": "James Tarkowski",
+    "understat_name": "James Tarkowski",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 292,
+    "understat_id": "10291",
+    "fpl_name": "Vitalii Mykolenko",
+    "understat_name": "Vitalii Mykolenko",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 293,
+    "understat_id": "12014",
+    "fpl_name": "Jake O'Brien",
+    "understat_name": "Jake O&#039;Brien",
+    "score": 0.7586
+  },
+  {
+    "fpl_id": 294,
+    "understat_id": "585",
+    "fpl_name": "S\u00e9amus Coleman",
+    "understat_name": "Seamus Coleman",
+    "score": 0.9286
+  },
+  {
+    "fpl_id": 295,
+    "understat_id": "1653",
+    "fpl_name": "Michael Keane",
+    "understat_name": "Michael Keane",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 296,
+    "understat_id": "10292",
+    "fpl_name": "Nathan Patterson",
+    "understat_name": "Nathan Patterson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 297,
+    "understat_id": "12946",
+    "fpl_name": "Roman Dixon",
+    "understat_name": "Roman Dixon",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 298,
+    "understat_id": "8067",
+    "fpl_name": "Reece Welch",
+    "understat_name": "Reece James",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 299,
+    "understat_id": "9307",
+    "fpl_name": "Iliman Ndiaye",
+    "understat_name": "Iliman Ndiaye",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 300,
+    "understat_id": "6756",
+    "fpl_name": "Dwight McNeil",
+    "understat_name": "Dwight McNeil",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 301,
+    "understat_id": "11297",
+    "fpl_name": "Carlos Alcaraz Dur\u00e1n",
+    "understat_name": "Carlos Alcaraz",
+    "score": 0.8235
+  },
+  {
+    "fpl_id": 302,
+    "understat_id": "668",
+    "fpl_name": "Idrissa Gana Gueye",
+    "understat_name": "Idrissa Gueye",
+    "score": 0.8387
+  },
+  {
+    "fpl_id": 303,
+    "understat_id": "7438",
+    "fpl_name": "James Garner",
+    "understat_name": "James Garner",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 304,
+    "understat_id": "9554",
+    "fpl_name": "Tim Iroegbunam",
+    "understat_name": "Tim Iroegbunam",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 305,
+    "understat_id": "12757",
+    "fpl_name": "Harrison Armstrong",
+    "understat_name": "Harrison Armstrong",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 306,
+    "understat_id": "468",
+    "fpl_name": "Callum Bates",
+    "understat_name": "Callum Wilson",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 307,
+    "understat_id": "6827",
+    "fpl_name": "Coby Ebere",
+    "understat_name": "Bobby Reid",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 308,
+    "understat_id": null,
+    "fpl_name": "Isaac Heath",
+    "understat_name": "Ismaila Sarr",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 309,
+    "understat_id": null,
+    "fpl_name": "Jenson Metcalfe",
+    "understat_name": "James McAtee",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 310,
+    "understat_id": null,
+    "fpl_name": "Thierno Barry",
+    "understat_name": "Ross Barkley",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 311,
+    "understat_id": "9983",
+    "fpl_name": "Norberto Bercique Gomes Betuncal",
+    "understat_name": "Beto",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 312,
+    "understat_id": "11984",
+    "fpl_name": "Youssef Ramalho Chermiti",
+    "understat_name": "Youssef Chermiti",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 313,
+    "understat_id": "2517",
+    "fpl_name": "Martin Sherif",
+    "understat_name": "Martin Odegaard",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 419,
+    "understat_id": "675",
+    "fpl_name": "Jack Grealish",
+    "understat_name": "Jack Grealish",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 630,
+    "understat_id": "12245",
+    "fpl_name": "Tom King",
+    "understat_name": "Tom King",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 667,
+    "understat_id": "900",
+    "fpl_name": "Adam Aznou",
+    "understat_name": "Adama Traor\u00e9",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 704,
+    "understat_id": "7726",
+    "fpl_name": "Tyler Onyango",
+    "understat_name": "Ezri Konsa Ngoyo",
+    "score": 0.6207
+  },
+  {
+    "fpl_id": 705,
+    "understat_id": null,
+    "fpl_name": "Elijah Campbell",
+    "understat_name": "James Hill",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 707,
+    "understat_id": "10586",
+    "fpl_name": "Tyler Dibling",
+    "understat_name": "Tyler Dibling",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 728,
+    "understat_id": "8260",
+    "fpl_name": "Merlin R\u00f6hl",
+    "understat_name": "Erling Haaland",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 779,
+    "understat_id": "11310",
+    "fpl_name": "Braiden Graham",
+    "understat_name": "Brajan Gruda",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 314,
+    "understat_id": "181",
+    "fpl_name": "Bernd Leno",
+    "understat_name": "Bernd Leno",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 315,
+    "understat_id": "660",
+    "fpl_name": "Steven Benda",
+    "understat_name": "Ben Davies",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 316,
+    "understat_id": "8940",
+    "fpl_name": "Antonee Robinson",
+    "understat_name": "Antonee Robinson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 317,
+    "understat_id": "6314",
+    "fpl_name": "Joachim Andersen",
+    "understat_name": "Joachim Andersen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 318,
+    "understat_id": "11728",
+    "fpl_name": "Calvin Bassey",
+    "understat_name": "Calvin Bassey",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 319,
+    "understat_id": "6157",
+    "fpl_name": "Timothy Castagne",
+    "understat_name": "Timothy Castagne",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 320,
+    "understat_id": "3203",
+    "fpl_name": "Issa Diop",
+    "understat_name": "Issa Diop",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 321,
+    "understat_id": "8489",
+    "fpl_name": "Jorge Cuenca Barreno",
+    "understat_name": "Jorge Cuenca",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 322,
+    "understat_id": "5973",
+    "fpl_name": "Kenny Tete",
+    "understat_name": "Kenny Tete",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 323,
+    "understat_id": "11618",
+    "fpl_name": "Samuel Amissah",
+    "understat_name": "Samuel Amo-Ameyaw",
+    "score": 0.6452
+  },
+  {
+    "fpl_id": 324,
+    "understat_id": "500",
+    "fpl_name": "Alex Iwobi",
+    "understat_name": "Alex Iwobi",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 325,
+    "understat_id": "7230",
+    "fpl_name": "Emile Smith Rowe",
+    "understat_name": "Emile Smith-Rowe",
+    "score": 0.9375
+  },
+  {
+    "fpl_id": 327,
+    "understat_id": "922",
+    "fpl_name": "Andreas Hoelgebaum Pereira",
+    "understat_name": "Andreas Pereira",
+    "score": 0.7317
+  },
+  {
+    "fpl_id": 328,
+    "understat_id": "6837",
+    "fpl_name": "Ryan Sessegnon",
+    "understat_name": "Ryan Sessegnon",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 329,
+    "understat_id": "5596",
+    "fpl_name": "Harry Wilson",
+    "understat_name": "Harry Wilson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 330,
+    "understat_id": "8285",
+    "fpl_name": "Sander Berge",
+    "understat_name": "Sander Berge",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 331,
+    "understat_id": "6835",
+    "fpl_name": "Tom Cairney",
+    "understat_name": "Tom Cairney",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 332,
+    "understat_id": "1537",
+    "fpl_name": "Sa\u0161a Luki\u0107",
+    "understat_name": "Sasa Lukic",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 333,
+    "understat_id": "11164",
+    "fpl_name": "Martial Godo",
+    "understat_name": "Martial Godo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 334,
+    "understat_id": "8562",
+    "fpl_name": "Luke Harris",
+    "understat_name": "Luke Thomas",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 335,
+    "understat_id": "12410",
+    "fpl_name": "Josh King",
+    "understat_name": "Joshua King",
+    "score": 0.9
+  },
+  {
+    "fpl_id": 336,
+    "understat_id": "910",
+    "fpl_name": "Harrison Reed",
+    "understat_name": "Harrison Reed",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 337,
+    "understat_id": "4105",
+    "fpl_name": "Ra\u00fal Jim\u00e9nez Rodr\u00edguez",
+    "understat_name": "Ra\u00fal Jim\u00e9nez",
+    "score": 0.7059
+  },
+  {
+    "fpl_id": 338,
+    "understat_id": "10717",
+    "fpl_name": "Rodrigo Muniz Carvalho",
+    "understat_name": "Rodrigo Muniz",
+    "score": 0.7429
+  },
+  {
+    "fpl_id": 424,
+    "understat_id": "11903",
+    "fpl_name": "Oscar Bobb",
+    "understat_name": "Oscar Bobb",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 664,
+    "understat_id": null,
+    "fpl_name": "Benjamin Lecomte",
+    "understat_name": "Alex Scott",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 727,
+    "understat_id": "10072",
+    "fpl_name": "Samuel Chukwueze",
+    "understat_name": "Samuel Edozie",
+    "score": 0.6897
+  },
+  {
+    "fpl_id": 731,
+    "understat_id": "5261",
+    "fpl_name": "Kevin Santos Lopes de Macedo",
+    "understat_name": "Kevin Danso",
+    "score": 0.625
+  },
+  {
+    "fpl_id": 737,
+    "understat_id": null,
+    "fpl_name": "Jonah Kusi-Asare",
+    "understat_name": "Joachim Kayi-Sanda",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 770,
+    "understat_id": null,
+    "fpl_name": "Seth Ridgeon",
+    "understat_name": "Thiago",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 786,
+    "understat_id": "635",
+    "fpl_name": "Alfie McNally",
+    "understat_name": "Alex McCarthy",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 168,
+    "understat_id": "11362",
+    "fpl_name": "Facundo Buonanotte",
+    "understat_name": "Facundo Buonanotte",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 339,
+    "understat_id": "489",
+    "fpl_name": "Illan Meslier",
+    "understat_name": "James Milner",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 340,
+    "understat_id": "635",
+    "fpl_name": "Alex Cairns",
+    "understat_name": "Alex McCarthy",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 341,
+    "understat_id": "11317",
+    "fpl_name": "Karl Darlow",
+    "understat_name": "Danilo",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 342,
+    "understat_id": "13067",
+    "fpl_name": "Jayden Bogle",
+    "understat_name": "Jayden Meghoma",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 343,
+    "understat_id": null,
+    "fpl_name": "Pascal Struijk",
+    "understat_name": "Pablo Sarabia",
+    "score": 0.5185
+  },
+  {
+    "fpl_id": 344,
+    "understat_id": null,
+    "fpl_name": "Jaka Bijol",
+    "understat_name": "Jakub Kiwior",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 345,
+    "understat_id": null,
+    "fpl_name": "Sebastiaan Bornauw",
+    "understat_name": "Jordan Ayew",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 346,
+    "understat_id": null,
+    "fpl_name": "Sam Byram",
+    "understat_name": "Sam Morsy",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 347,
+    "understat_id": "12947",
+    "fpl_name": "Gabriel Gudmundsson",
+    "understat_name": "George Edmundson",
+    "score": 0.6857
+  },
+  {
+    "fpl_id": 348,
+    "understat_id": "510",
+    "fpl_name": "Joe Rodon",
+    "understat_name": "Joel Ward",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 349,
+    "understat_id": "825",
+    "fpl_name": "Isaac Schmidt",
+    "understat_name": "Adam Smith",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 350,
+    "understat_id": "10760",
+    "fpl_name": "Brenden Aaronson",
+    "understat_name": "Brennan Johnson",
+    "score": 0.7097
+  },
+  {
+    "fpl_id": 351,
+    "understat_id": "5545",
+    "fpl_name": "Wilfried Gnonto",
+    "understat_name": "Wilfred Ndidi",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 352,
+    "understat_id": "8720",
+    "fpl_name": "Jack Harrison",
+    "understat_name": "Jack Harrison",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 353,
+    "understat_id": "9509",
+    "fpl_name": "Daniel James",
+    "understat_name": "Daniel Jebbison",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 354,
+    "understat_id": null,
+    "fpl_name": "Ethan Ampadu",
+    "understat_name": "Emmanuel Agbadou",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 355,
+    "understat_id": null,
+    "fpl_name": "Sam Greenwood",
+    "understat_name": "Chris Wood",
+    "score": 0.5263
+  },
+  {
+    "fpl_id": 356,
+    "understat_id": "668",
+    "fpl_name": "Ilia Gruev",
+    "understat_name": "Idrissa Gueye",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 357,
+    "understat_id": "13134",
+    "fpl_name": "Largie Ramazani",
+    "understat_name": "Ryan Manning",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 358,
+    "understat_id": "579",
+    "fpl_name": "Tanaka Ao",
+    "understat_name": "Nathan Ak\u00e9",
+    "score": 0.625
+  },
+  {
+    "fpl_id": 359,
+    "understat_id": "6044",
+    "fpl_name": "Charlie Crew",
+    "understat_name": "Charlie Taylor",
+    "score": 0.6923
+  },
+  {
+    "fpl_id": 360,
+    "understat_id": "510",
+    "fpl_name": "Joe Gelhardt",
+    "understat_name": "Joel Ward",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 361,
+    "understat_id": "5613",
+    "fpl_name": "Darko Gyabi",
+    "understat_name": "Gabriel",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 362,
+    "understat_id": "8272",
+    "fpl_name": "Jo\u00ebl Piroe",
+    "understat_name": "Jo\u00e3o Pedro",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 363,
+    "understat_id": "11944",
+    "fpl_name": "Patrick Bamford",
+    "understat_name": "Patrick Dorgu",
+    "score": 0.7143
+  },
+  {
+    "fpl_id": 364,
+    "understat_id": null,
+    "fpl_name": "Mateo Joseph Fern\u00e1ndez-Regatillo",
+    "understat_name": "Matthew Cash",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 365,
+    "understat_id": "1823",
+    "fpl_name": "Lukas Nmecha",
+    "understat_name": "Lucas Digne",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 493,
+    "understat_id": "7078",
+    "fpl_name": "Sean Longstaff",
+    "understat_name": "Sean Longstaff",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 660,
+    "understat_id": "6345",
+    "fpl_name": "Anton Stach",
+    "understat_name": "Jadon Sancho",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 665,
+    "understat_id": "2496",
+    "fpl_name": "Lucas Estella Perri",
+    "understat_name": "Rodri",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 691,
+    "understat_id": "5555",
+    "fpl_name": "Dominic Calvert-Lewin",
+    "understat_name": "Dominic Calvert-Lewin",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 698,
+    "understat_id": null,
+    "fpl_name": "Noah Okafor",
+    "understat_name": "Dango Ouattara",
+    "score": 0.48
+  },
+  {
+    "fpl_id": 706,
+    "understat_id": "7753",
+    "fpl_name": "James Justin",
+    "understat_name": "James Justin",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 741,
+    "understat_id": "1687",
+    "fpl_name": "Harry Gray",
+    "understat_name": "Harry Maguire",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 787,
+    "understat_id": "12748",
+    "fpl_name": "Sam Chambers",
+    "understat_name": "Sam Morsy",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 366,
+    "understat_id": "1257",
+    "fpl_name": "Alisson Becker",
+    "understat_name": "Alisson",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 367,
+    "understat_id": null,
+    "fpl_name": "Giorgi Mamardashvili",
+    "understat_name": "James Hill",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 368,
+    "understat_id": null,
+    "fpl_name": "\u00c1rmin P\u00e9csi",
+    "understat_name": "Romain Esse",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 369,
+    "understat_id": null,
+    "fpl_name": "Freddie Woodman",
+    "understat_name": "Chris Wood",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 370,
+    "understat_id": "13579",
+    "fpl_name": "Jeremie Frimpong",
+    "understat_name": "Jeremy Monga",
+    "score": 0.7143
+  },
+  {
+    "fpl_id": 371,
+    "understat_id": "11709",
+    "fpl_name": "Milos Kerkez",
+    "understat_name": "Milos Kerkez",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 372,
+    "understat_id": "1688",
+    "fpl_name": "Andrew Robertson",
+    "understat_name": "Andrew Robertson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 373,
+    "understat_id": "833",
+    "fpl_name": "Virgil van Dijk",
+    "understat_name": "Virgil van Dijk",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 374,
+    "understat_id": "6326",
+    "fpl_name": "Ibrahima Konat\u00e9",
+    "understat_name": "Ibrahima Konat\u00e9",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 375,
+    "understat_id": "10120",
+    "fpl_name": "Conor Bradley",
+    "understat_name": "Conor Bradley",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 376,
+    "understat_id": "987",
+    "fpl_name": "Joe Gomez",
+    "understat_name": "Joseph Gomez",
+    "score": 0.8571
+  },
+  {
+    "fpl_id": 377,
+    "understat_id": "8852",
+    "fpl_name": "Konstantinos Tsimikas",
+    "understat_name": "Konstantinos Tsimikas",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 378,
+    "understat_id": null,
+    "fpl_name": "Amara Nallo",
+    "understat_name": "Murillo",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 379,
+    "understat_id": "700",
+    "fpl_name": "Rhys Williams",
+    "understat_name": "Willian",
+    "score": 0.7059
+  },
+  {
+    "fpl_id": 380,
+    "understat_id": "11728",
+    "fpl_name": "Calvin Ramsay",
+    "understat_name": "Calvin Bassey",
+    "score": 0.7692
+  },
+  {
+    "fpl_id": 381,
+    "understat_id": "1250",
+    "fpl_name": "Mohamed Salah",
+    "understat_name": "Mohamed Salah",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 382,
+    "understat_id": null,
+    "fpl_name": "Florian Wirtz",
+    "understat_name": "Lisandro Mart\u00ednez",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 383,
+    "understat_id": "10408",
+    "fpl_name": "Luis D\u00edaz Marulanda",
+    "understat_name": "Luis D\u00edaz",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 384,
+    "understat_id": "11296",
+    "fpl_name": "Cody Gakpo",
+    "understat_name": "Cody Gakpo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 385,
+    "understat_id": "1433",
+    "fpl_name": "Federico Chiesa",
+    "understat_name": "Federico Chiesa",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 386,
+    "understat_id": "8379",
+    "fpl_name": "Alexis Mac Allister",
+    "understat_name": "Alexis Mac Allister",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 387,
+    "understat_id": "9788",
+    "fpl_name": "Dominik Szoboszlai",
+    "understat_name": "Dominik Szoboszlai",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 388,
+    "understat_id": "6665",
+    "fpl_name": "Curtis Jones",
+    "understat_name": "Curtis Jones",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 390,
+    "understat_id": "10697",
+    "fpl_name": "Ryan Gravenberch",
+    "understat_name": "Ryan Gravenberch",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 392,
+    "understat_id": null,
+    "fpl_name": "Endo Wataru",
+    "understat_name": "Leandro Trossard",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 393,
+    "understat_id": null,
+    "fpl_name": "Stefan Baj\u010deti\u0107 Maquieira",
+    "understat_name": "Arijanet Muric",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 394,
+    "understat_id": "10126",
+    "fpl_name": "James McConnell",
+    "understat_name": "James McAtee",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 395,
+    "understat_id": "13068",
+    "fpl_name": "Tyler Morton",
+    "understat_name": "Morato",
+    "score": 0.8333
+  },
+  {
+    "fpl_id": 396,
+    "understat_id": null,
+    "fpl_name": "Trey Nyoni",
+    "understat_name": "Ashley Young",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 397,
+    "understat_id": "10720",
+    "fpl_name": "Darwin N\u00fa\u00f1ez Ribeiro",
+    "understat_name": "Darwin N\u00fa\u00f1ez",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 398,
+    "understat_id": "12455",
+    "fpl_name": "Jayden Danns",
+    "understat_name": "Jayden Danns",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 499,
+    "understat_id": "5232",
+    "fpl_name": "Alexander Isak",
+    "understat_name": "Alexander Isak",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 661,
+    "understat_id": null,
+    "fpl_name": "Hugo Ekitik\u00e9",
+    "understat_name": "Joshua King",
+    "score": 0.4348
+  },
+  {
+    "fpl_id": 686,
+    "understat_id": null,
+    "fpl_name": "Rio Ngumoha",
+    "understat_name": "Bruno Guimar\u00e3es",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 692,
+    "understat_id": "5221",
+    "fpl_name": "Giovanni Leoni",
+    "understat_name": "Leon Bailey",
+    "score": 0.625
+  },
+  {
+    "fpl_id": 746,
+    "understat_id": "1245",
+    "fpl_name": "Kieran Morrison",
+    "understat_name": "Emerson",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 760,
+    "understat_id": "6850",
+    "fpl_name": "Wellity Lucky",
+    "understat_name": "Willy Boly",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 82,
+    "understat_id": "11363",
+    "fpl_name": "Antoine Semenyo",
+    "understat_name": "Antoine Semenyo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 182,
+    "understat_id": "755",
+    "fpl_name": "James Trafford",
+    "understat_name": "Jamie Vardy",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 260,
+    "understat_id": "7603",
+    "fpl_name": "Marc Gu\u00e9hi",
+    "understat_name": "Marc Guehi",
+    "score": 0.9
+  },
+  {
+    "fpl_id": 399,
+    "understat_id": "6054",
+    "fpl_name": "Ederson Santana de Moraes",
+    "understat_name": "Ederson",
+    "score": 0.8235
+  },
+  {
+    "fpl_id": 401,
+    "understat_id": "10864",
+    "fpl_name": "Marcus Bettinelli",
+    "understat_name": "Marcos Senesi",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 402,
+    "understat_id": "6674",
+    "fpl_name": "Rayan A\u00eft-Nouri",
+    "understat_name": "Rayan Ait Nouri",
+    "score": 0.8667
+  },
+  {
+    "fpl_id": 403,
+    "understat_id": "9790",
+    "fpl_name": "Jo\u0161ko Gvardiol",
+    "understat_name": "Josko Gvardiol",
+    "score": 0.9286
+  },
+  {
+    "fpl_id": 404,
+    "understat_id": "6490",
+    "fpl_name": "Manuel Akanji",
+    "understat_name": "Manuel Akanji",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 405,
+    "understat_id": "579",
+    "fpl_name": "Nathan Ak\u00e9",
+    "understat_name": "Nathan Ak\u00e9",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 406,
+    "understat_id": "11763",
+    "fpl_name": "Abdukodir Khusanov",
+    "understat_name": "Abduqodir Khusanov",
+    "score": 0.9444
+  },
+  {
+    "fpl_id": 407,
+    "understat_id": "11000",
+    "fpl_name": "Matheus Nunes",
+    "understat_name": "Matheus Nunes",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 408,
+    "understat_id": "8961",
+    "fpl_name": "R\u00faben dos Santos Gato Alves Dias",
+    "understat_name": "R\u00faben Dias",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 409,
+    "understat_id": "586",
+    "fpl_name": "John Stones",
+    "understat_name": "John Stones",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 410,
+    "understat_id": "10847",
+    "fpl_name": "Rico Lewis",
+    "understat_name": "Rico Lewis",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 411,
+    "understat_id": "11592",
+    "fpl_name": "Nico O'Reilly",
+    "understat_name": "Nico O&#039;Reilly",
+    "score": 0.7742
+  },
+  {
+    "fpl_id": 412,
+    "understat_id": "13380",
+    "fpl_name": "Vitor de Oliveira Nunes dos Reis",
+    "understat_name": "Vitor Reis",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 413,
+    "understat_id": "8393",
+    "fpl_name": "Omar Marmoush",
+    "understat_name": "Omar Marmoush",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 414,
+    "understat_id": "6055",
+    "fpl_name": "Phil Foden",
+    "understat_name": "Phil Foden",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 415,
+    "understat_id": "11735",
+    "fpl_name": "S\u00e1vio Moreira de Oliveira",
+    "understat_name": "S\u00e1vio",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 416,
+    "understat_id": "3635",
+    "fpl_name": "Bernardo Mota Veiga de Carvalho e Silva",
+    "understat_name": "Bernardo Silva",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 417,
+    "understat_id": "10744",
+    "fpl_name": "Rayan Cherki",
+    "understat_name": "Ryan Christie",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 418,
+    "understat_id": "8981",
+    "fpl_name": "J\u00e9r\u00e9my Doku",
+    "understat_name": "J\u00e9remy Doku",
+    "score": 0.9091
+  },
+  {
+    "fpl_id": 420,
+    "understat_id": "314",
+    "fpl_name": "\u0130lkay G\u00fcndo\u011fan",
+    "understat_name": "Ilkay G\u00fcndogan",
+    "score": 0.8966
+  },
+  {
+    "fpl_id": 421,
+    "understat_id": "2496",
+    "fpl_name": "Rodrigo 'Rodri' Hernandez Cascante",
+    "understat_name": "Rodri",
+    "score": 0.8333
+  },
+  {
+    "fpl_id": 422,
+    "understat_id": "2254",
+    "fpl_name": "Mateo Kova\u010di\u0107",
+    "understat_name": "Mateo Kovacic",
+    "score": 0.8462
+  },
+  {
+    "fpl_id": 423,
+    "understat_id": "9802",
+    "fpl_name": "Nico Gonz\u00e1lez Iglesias",
+    "understat_name": "Nico Gonz\u00e1lez",
+    "score": 0.7429
+  },
+  {
+    "fpl_id": 425,
+    "understat_id": "13649",
+    "fpl_name": "Claudio Echeverri",
+    "understat_name": "Claudio Echeverri",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 427,
+    "understat_id": "6054",
+    "fpl_name": "Tijjani Reijnders",
+    "understat_name": "Ederson",
+    "score": 0.625
+  },
+  {
+    "fpl_id": 428,
+    "understat_id": null,
+    "fpl_name": "Sverre Nypan",
+    "understat_name": "Sven Botman",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 429,
+    "understat_id": "8719",
+    "fpl_name": "Kalvin Phillips",
+    "understat_name": "Kalvin Phillips",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 430,
+    "understat_id": "8260",
+    "fpl_name": "Erling Haaland",
+    "understat_name": "Erling Haaland",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 736,
+    "understat_id": null,
+    "fpl_name": "Gianluigi Donnarumma",
+    "understat_name": "Kaoru Mitoma",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 739,
+    "understat_id": "11242",
+    "fpl_name": "Divine Mukasa",
+    "understat_name": "Divin Mubama",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 740,
+    "understat_id": null,
+    "fpl_name": "Stephen Mfuni",
+    "understat_name": "Stephy Mavididi",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 742,
+    "understat_id": "13134",
+    "fpl_name": "Ryan McAidoo",
+    "understat_name": "Ryan Manning",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 763,
+    "understat_id": "10184",
+    "fpl_name": "Charlie Gray",
+    "understat_name": "Archie Gray",
+    "score": 0.7826
+  },
+  {
+    "fpl_id": 764,
+    "understat_id": null,
+    "fpl_name": "Reigan Heskey",
+    "understat_name": "Romain Esse",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 794,
+    "understat_id": null,
+    "fpl_name": "Max Alleyne",
+    "understat_name": "Max Kilman",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 119,
+    "understat_id": "6552",
+    "fpl_name": "Bryan Mbeumo",
+    "understat_name": "Bryan Mbeumo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 431,
+    "understat_id": "12054",
+    "fpl_name": "Altay Bay\u0131nd\u0131r",
+    "understat_name": "Altay Bayindir",
+    "score": 0.8571
+  },
+  {
+    "fpl_id": 432,
+    "understat_id": "10913",
+    "fpl_name": "Andr\u00e9 Onana",
+    "understat_name": "Andr\u00e9 Onana",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 433,
+    "understat_id": "5596",
+    "fpl_name": "Elyh Harrison",
+    "understat_name": "Harry Wilson",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 434,
+    "understat_id": "11094",
+    "fpl_name": "Tom Heaton",
+    "understat_name": "Antony",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 435,
+    "understat_id": "1654",
+    "fpl_name": "Dermot Mee",
+    "understat_name": "Ben Mee",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 436,
+    "understat_id": "7902",
+    "fpl_name": "Matthijs de Ligt",
+    "understat_name": "Matthijs de Ligt",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 437,
+    "understat_id": "10802",
+    "fpl_name": "Lisandro Mart\u00ednez",
+    "understat_name": "Lisandro Mart\u00ednez",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 438,
+    "understat_id": "10696",
+    "fpl_name": "Noussair Mazraoui",
+    "understat_name": "Noussair Mazraoui",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 439,
+    "understat_id": "6054",
+    "fpl_name": "Diego Le\u00f3n Blanco",
+    "understat_name": "Ederson",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 440,
+    "understat_id": "11317",
+    "fpl_name": "Diogo Dalot Teixeira",
+    "understat_name": "Danilo",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 441,
+    "understat_id": "11944",
+    "fpl_name": "Patrick Dorgu",
+    "understat_name": "Patrick Dorgu",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 442,
+    "understat_id": "1687",
+    "fpl_name": "Harry Maguire",
+    "understat_name": "Harry Maguire",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 443,
+    "understat_id": "1006",
+    "fpl_name": "Luke Shaw",
+    "understat_name": "Luke Shaw",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 444,
+    "understat_id": "10564",
+    "fpl_name": "Leny Yoro",
+    "understat_name": "Leny Yoro",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 445,
+    "understat_id": "12559",
+    "fpl_name": "Harry Amass",
+    "understat_name": "Harry Amass",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 446,
+    "understat_id": "13467",
+    "fpl_name": "Tyler Fredricson",
+    "understat_name": "Tyler Fredricson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 447,
+    "understat_id": "13080",
+    "fpl_name": "Ayden Heaven",
+    "understat_name": "Ayden Heaven",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 448,
+    "understat_id": "10803",
+    "fpl_name": "Tyrell Malacia",
+    "understat_name": "Tyrell Malacia",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 449,
+    "understat_id": "1228",
+    "fpl_name": "Bruno Borges Fernandes",
+    "understat_name": "Bruno Fernandes",
+    "score": 0.8108
+  },
+  {
+    "fpl_id": 450,
+    "understat_id": null,
+    "fpl_name": "Matheus Santos Carneiro da Cunha",
+    "understat_name": "Matheus Cunha",
+    "score": 0.5778
+  },
+  {
+    "fpl_id": 451,
+    "understat_id": "556",
+    "fpl_name": "Marcus Rashford",
+    "understat_name": "Marcus Rashford",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 452,
+    "understat_id": "8127",
+    "fpl_name": "Amad Diallo",
+    "understat_name": "Amad Diallo Traore",
+    "score": 0.7586
+  },
+  {
+    "fpl_id": 454,
+    "understat_id": "11094",
+    "fpl_name": "Antony dos Santos",
+    "understat_name": "Antony",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 455,
+    "understat_id": "7768",
+    "fpl_name": "Mason Mount",
+    "understat_name": "Mason Mount",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 457,
+    "understat_id": "2248",
+    "fpl_name": "Carlos Henrique Casimiro",
+    "understat_name": "Casemiro",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 458,
+    "understat_id": "11174",
+    "fpl_name": "Kobbie Mainoo",
+    "understat_name": "Kobbie Mainoo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 459,
+    "understat_id": "11766",
+    "fpl_name": "Manuel Ugarte Ribeiro",
+    "understat_name": "Manuel Ugarte",
+    "score": 0.7647
+  },
+  {
+    "fpl_id": 460,
+    "understat_id": "12461",
+    "fpl_name": "Toby Collyer",
+    "understat_name": "Toby Collyer",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 461,
+    "understat_id": "10718",
+    "fpl_name": "Jayce Fitzgerald",
+    "understat_name": "Jay Stansfield",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 462,
+    "understat_id": "1735",
+    "fpl_name": "Jack Fletcher",
+    "understat_name": "Jack Stephens",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 463,
+    "understat_id": null,
+    "fpl_name": "S\u00e9kou Kon\u00e9",
+    "understat_name": "Neto",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 464,
+    "understat_id": null,
+    "fpl_name": "Jack Moorhouse",
+    "understat_name": "Jack Taylor",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 465,
+    "understat_id": "11055",
+    "fpl_name": "Rasmus H\u00f8jlund",
+    "understat_name": "Rasmus H\u00f8jlund",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 466,
+    "understat_id": "8044",
+    "fpl_name": "Joshua Zirkzee",
+    "understat_name": "Joshua Zirkzee",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 467,
+    "understat_id": "13466",
+    "fpl_name": "Chido Obi",
+    "understat_name": "Chido Obi-Martin",
+    "score": 0.72
+  },
+  {
+    "fpl_id": 468,
+    "understat_id": null,
+    "fpl_name": "Ethan Wheatley",
+    "understat_name": "Thomas Partey",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 681,
+    "understat_id": "6691",
+    "fpl_name": "Benjamin Sesko",
+    "understat_name": "Dejan Kulusevski",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 733,
+    "understat_id": null,
+    "fpl_name": "Senne Lammens",
+    "understat_name": "Reece James",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 755,
+    "understat_id": null,
+    "fpl_name": "Shea Lacey",
+    "understat_name": "Kaelan Casey",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 769,
+    "understat_id": null,
+    "fpl_name": "Bendito Mantato",
+    "understat_name": "Alejandro Garnacho",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 771,
+    "understat_id": "13467",
+    "fpl_name": "Tyler Fletcher",
+    "understat_name": "Tyler Fredricson",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 788,
+    "understat_id": null,
+    "fpl_name": "Godwill Kukonki",
+    "understat_name": "Yunus Konak",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 52,
+    "understat_id": "8941",
+    "fpl_name": "Jacob Ramsey",
+    "understat_name": "Jacob Ramsey",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 135,
+    "understat_id": "5786",
+    "fpl_name": "Yoane Wissa",
+    "understat_name": "Yoane Wissa",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 469,
+    "understat_id": "5552",
+    "fpl_name": "Nick Pope",
+    "understat_name": "Nick Pope",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 471,
+    "understat_id": "7047",
+    "fpl_name": "Mark Gillespie",
+    "understat_name": "Mark Flekken",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 472,
+    "understat_id": null,
+    "fpl_name": "Odysseas Vlachodimos",
+    "understat_name": "Ross Stewart",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 473,
+    "understat_id": "10216",
+    "fpl_name": "Lewis Hall",
+    "understat_name": "Lewis Hall",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 474,
+    "understat_id": "76",
+    "fpl_name": "Fabian Sch\u00e4r",
+    "understat_name": "Fabian Sch\u00e4r",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 475,
+    "understat_id": "8635",
+    "fpl_name": "Sven Botman",
+    "understat_name": "Sven Botman",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 476,
+    "understat_id": "7382",
+    "fpl_name": "Dan Burn",
+    "understat_name": "Dan Burn",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 477,
+    "understat_id": "9512",
+    "fpl_name": "Tino Livramento",
+    "understat_name": "Valentino Livramento",
+    "score": 0.8571
+  },
+  {
+    "fpl_id": 478,
+    "understat_id": "652",
+    "fpl_name": "Kieran Trippier",
+    "understat_name": "Kieran Trippier",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 479,
+    "understat_id": "1545",
+    "fpl_name": "Emil Krafth",
+    "understat_name": "Emil Krafth",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 480,
+    "understat_id": null,
+    "fpl_name": "Jamaal Lascelles",
+    "understat_name": "Matz Sels",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 481,
+    "understat_id": "635",
+    "fpl_name": "Alex Murphy",
+    "understat_name": "Alex McCarthy",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 482,
+    "understat_id": "12757",
+    "fpl_name": "Harrison Ashby",
+    "understat_name": "Harrison Armstrong",
+    "score": 0.6875
+  },
+  {
+    "fpl_id": 483,
+    "understat_id": null,
+    "fpl_name": "Miodrag Piva\u0161",
+    "understat_name": "Andreas Pereira",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 484,
+    "understat_id": "884",
+    "fpl_name": "Matt Targett",
+    "understat_name": "Matt Targett",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 485,
+    "understat_id": "8150",
+    "fpl_name": "Anthony Gordon",
+    "understat_name": "Anthony Gordon",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 486,
+    "understat_id": "9524",
+    "fpl_name": "Anthony Elanga",
+    "understat_name": "Anthony Elanga",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 487,
+    "understat_id": "6681",
+    "fpl_name": "Harvey Barnes",
+    "understat_name": "Harvey Barnes",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 488,
+    "understat_id": "8327",
+    "fpl_name": "Bruno Guimar\u00e3es Rodriguez Moura",
+    "understat_name": "Bruno Guimar\u00e3es",
+    "score": 0.6522
+  },
+  {
+    "fpl_id": 489,
+    "understat_id": "6063",
+    "fpl_name": "Jacob Murphy",
+    "understat_name": "Jacob Murphy",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 490,
+    "understat_id": "87",
+    "fpl_name": "Joelinton C\u00e1ssio Apolin\u00e1rio de Lira",
+    "understat_name": "Joelinton",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 491,
+    "understat_id": "7958",
+    "fpl_name": "Sandro Tonali",
+    "understat_name": "Sandro Tonali",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 492,
+    "understat_id": null,
+    "fpl_name": "Anto\u00f1ito Cordero Campillo",
+    "understat_name": "Santiago Bueno",
+    "score": 0.48
+  },
+  {
+    "fpl_id": 494,
+    "understat_id": "6630",
+    "fpl_name": "Joe Willock",
+    "understat_name": "Joe Willock",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 495,
+    "understat_id": null,
+    "fpl_name": "Isaac Hayden",
+    "understat_name": "Kevin Schade",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 496,
+    "understat_id": null,
+    "fpl_name": "Garang Kuol",
+    "understat_name": "Bryan Mbeumo",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 497,
+    "understat_id": "11386",
+    "fpl_name": "Lewis Miley",
+    "understat_name": "Lewis Miley",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 498,
+    "understat_id": "7298",
+    "fpl_name": "Joe White",
+    "understat_name": "Ben White",
+    "score": 0.7778
+  },
+  {
+    "fpl_id": 500,
+    "understat_id": "9556",
+    "fpl_name": "William Osula",
+    "understat_name": "William Osula",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 501,
+    "understat_id": "13080",
+    "fpl_name": "Sean Neave",
+    "understat_name": "Ayden Heaven",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 674,
+    "understat_id": "5603",
+    "fpl_name": "Aaron Ramsdale",
+    "understat_name": "Aaron Ramsdale",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 684,
+    "understat_id": "13222",
+    "fpl_name": "Malick Thiaw",
+    "understat_name": "Thiago",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 689,
+    "understat_id": null,
+    "fpl_name": "Seung-Soo Park",
+    "understat_name": "Leny Yoro",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 714,
+    "understat_id": "5552",
+    "fpl_name": "Nick Woltemade",
+    "understat_name": "Nick Pope",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 753,
+    "understat_id": null,
+    "fpl_name": "John Ruddy",
+    "understat_name": "Brajan Gruda",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 765,
+    "understat_id": "1006",
+    "fpl_name": "Leo Shahar",
+    "understat_name": "Luke Shaw",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 772,
+    "understat_id": null,
+    "fpl_name": "Sam Alabi",
+    "understat_name": "Adam Lallana",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 12,
+    "understat_id": "2958",
+    "fpl_name": "Oleksandr Zinchenko",
+    "understat_name": "Oleksandr Zinchenko",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 400,
+    "understat_id": "8786",
+    "fpl_name": "Stefan Ortega Moreno",
+    "understat_name": "Stefan Ortega Moreno",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 426,
+    "understat_id": "10126",
+    "fpl_name": "James McAtee",
+    "understat_name": "James McAtee",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 502,
+    "understat_id": "6903",
+    "fpl_name": "Matz Sels",
+    "understat_name": "Matz Sels",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 503,
+    "understat_id": null,
+    "fpl_name": "Carlos Miguel dos Santos Pereira",
+    "understat_name": "Ricardo Pereira",
+    "score": 0.5532
+  },
+  {
+    "fpl_id": 504,
+    "understat_id": "884",
+    "fpl_name": "Matt Turner",
+    "understat_name": "Matt Targett",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 505,
+    "understat_id": "6174",
+    "fpl_name": "Nikola Milenkovi\u0107",
+    "understat_name": "Nikola Milenkovic",
+    "score": 0.9412
+  },
+  {
+    "fpl_id": 506,
+    "understat_id": "12123",
+    "fpl_name": "Murillo Costa dos Santos",
+    "understat_name": "Murillo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 507,
+    "understat_id": "725",
+    "fpl_name": "Ola Aina",
+    "understat_name": "Ola Aina",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 508,
+    "understat_id": "8204",
+    "fpl_name": "Neco Williams",
+    "understat_name": "Neco Williams",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 509,
+    "understat_id": "6820",
+    "fpl_name": "David Mota Veiga Teixeira do Carmo",
+    "understat_name": "David Brooks",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 510,
+    "understat_id": "8489",
+    "fpl_name": "Jair Paula da Cunha Filho",
+    "understat_name": "Jorge Cuenca",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 511,
+    "understat_id": "13068",
+    "fpl_name": "Felipe Rodrigues da Silva",
+    "understat_name": "Morato",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 512,
+    "understat_id": "8430",
+    "fpl_name": "Omar Richards",
+    "understat_name": "Chris Richards",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 513,
+    "understat_id": null,
+    "fpl_name": "Zach Abbott",
+    "understat_name": "Alex Scott",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 514,
+    "understat_id": "6850",
+    "fpl_name": "Willy Boly",
+    "understat_name": "Willy Boly",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 515,
+    "understat_id": "6857",
+    "fpl_name": "Morgan Gibbs-White",
+    "understat_name": "Morgan Gibbs-White",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 516,
+    "understat_id": "6456",
+    "fpl_name": "Callum Hudson-Odoi",
+    "understat_name": "Callum Hudson-Odoi",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 517,
+    "understat_id": "9154",
+    "fpl_name": "Elliot Anderson",
+    "understat_name": "Elliot Anderson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 518,
+    "understat_id": null,
+    "fpl_name": "Jo\u00e3o Pedro Ferreira da Silva",
+    "understat_name": "Diogo Jota",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 519,
+    "understat_id": "8252",
+    "fpl_name": "Nicol\u00e1s Dom\u00ednguez",
+    "understat_name": "Nicol\u00e1s Dom\u00ednguez",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 520,
+    "understat_id": "11386",
+    "fpl_name": "Lewis O'Brien",
+    "understat_name": "Lewis Miley",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 521,
+    "understat_id": "5722",
+    "fpl_name": "Ibrahim Sangar\u00e9",
+    "understat_name": "Ibrahim Sangare",
+    "score": 0.9333
+  },
+  {
+    "fpl_id": 522,
+    "understat_id": "11003",
+    "fpl_name": "Ryan Yates",
+    "understat_name": "Ryan Yates",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 523,
+    "understat_id": "12765",
+    "fpl_name": "Eric da Silva Moreira",
+    "understat_name": "Eric da Silva Moreira",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 524,
+    "understat_id": "2117",
+    "fpl_name": "Marko Stameni\u0107",
+    "understat_name": "Marco Asensio",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 525,
+    "understat_id": "4456",
+    "fpl_name": "Chris Wood",
+    "understat_name": "Chris Wood",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 526,
+    "understat_id": "7943",
+    "fpl_name": "Igor Jesus Maciel da Cruz",
+    "understat_name": "Igor Julio",
+    "score": 0.7
+  },
+  {
+    "fpl_id": 527,
+    "understat_id": "7814",
+    "fpl_name": "Taiwo Awoniyi",
+    "understat_name": "Taiwo Awoniyi",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 669,
+    "understat_id": "9307",
+    "fpl_name": "Dan Ndoye",
+    "understat_name": "Iliman Ndiaye",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 675,
+    "understat_id": null,
+    "fpl_name": "Angus Gunn",
+    "understat_name": "Matheus Cunha",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 693,
+    "understat_id": "10348",
+    "fpl_name": "Omari Hutchinson",
+    "understat_name": "Omari Hutchinson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 696,
+    "understat_id": "13117",
+    "fpl_name": "Arnaud Kalimuendo",
+    "understat_name": "Alfie Pond",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 715,
+    "understat_id": null,
+    "fpl_name": "John Victor Maciel Furtado",
+    "understat_name": "Victor Lindel\u00f6f",
+    "score": 0.5366
+  },
+  {
+    "fpl_id": 716,
+    "understat_id": "10048",
+    "fpl_name": "Nicol\u00f2 Savona",
+    "understat_name": "Nicolas Jackson",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 729,
+    "understat_id": null,
+    "fpl_name": "Luis Eduardo Soares da Silva",
+    "understat_name": "Chiquinho",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 734,
+    "understat_id": null,
+    "fpl_name": "Dilane Bakwa",
+    "understat_name": "Divin Mubama",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 805,
+    "understat_id": null,
+    "fpl_name": "Lorenzo Lucca",
+    "understat_name": "Lucas Digne",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 814,
+    "understat_id": "1297",
+    "fpl_name": "Luca Netz",
+    "understat_name": "Neto",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 528,
+    "understat_id": "10292",
+    "fpl_name": "Anthony Patterson",
+    "understat_name": "Nathan Patterson",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 529,
+    "understat_id": "12603",
+    "fpl_name": "Simon Moore",
+    "understat_name": "Mikey Moore",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 530,
+    "understat_id": null,
+    "fpl_name": "Blondy Nna Noukeu",
+    "understat_name": "Chimuanya Ugochukwu",
+    "score": 0.4828
+  },
+  {
+    "fpl_id": 531,
+    "understat_id": "11361",
+    "fpl_name": "Daniel Ballard",
+    "understat_name": "Daniel Bentley",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 532,
+    "understat_id": null,
+    "fpl_name": "Trai Hume",
+    "understat_name": "Rico Henry",
+    "score": 0.5263
+  },
+  {
+    "fpl_id": 533,
+    "understat_id": "13302",
+    "fpl_name": "Aji Alese",
+    "understat_name": "Will Alves",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 534,
+    "understat_id": "6054",
+    "fpl_name": "Joe Anderson",
+    "understat_name": "Ederson",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 535,
+    "understat_id": null,
+    "fpl_name": "Dennis Cirkin",
+    "understat_name": "Chiquinho",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 536,
+    "understat_id": null,
+    "fpl_name": "Leo Fuhr Hjelde",
+    "understat_name": "Joel Ward",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 537,
+    "understat_id": "6104",
+    "fpl_name": "Niall Huggins",
+    "understat_name": "Will Hughes",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 538,
+    "understat_id": "586",
+    "fpl_name": "Zak Johnson",
+    "understat_name": "John Stones",
+    "score": 0.7778
+  },
+  {
+    "fpl_id": 539,
+    "understat_id": "12746",
+    "fpl_name": "Luke O'Nien",
+    "understat_name": "Luke Woolfenden",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 540,
+    "understat_id": null,
+    "fpl_name": "Timoth\u00e9e Pemb\u00e9l\u00e9",
+    "understat_name": "Daniel Bentley",
+    "score": 0.4762
+  },
+  {
+    "fpl_id": 541,
+    "understat_id": "6088",
+    "fpl_name": "Reinildo Mandava",
+    "understat_name": "Orel Mangala",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 542,
+    "understat_id": "7235",
+    "fpl_name": "Jenson Seelt",
+    "understat_name": "Jason Steele",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 543,
+    "understat_id": "11710",
+    "fpl_name": "Simon Adingra",
+    "understat_name": "Simon Adingra",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 544,
+    "understat_id": null,
+    "fpl_name": "Habib Diarra",
+    "understat_name": "Fabio Carvalho",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 545,
+    "understat_id": "9098",
+    "fpl_name": "Patrick Roberts",
+    "understat_name": "Robert S\u00e1nchez",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 546,
+    "understat_id": "13302",
+    "fpl_name": "Milan Aleksi\u0107",
+    "understat_name": "Will Alves",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 547,
+    "understat_id": null,
+    "fpl_name": "Enzo Le F\u00e9e",
+    "understat_name": "Enzo Fern\u00e1ndez",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 548,
+    "understat_id": "13387",
+    "fpl_name": "Romaine Mundle",
+    "understat_name": "Romain Esse",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 549,
+    "understat_id": "11317",
+    "fpl_name": "Dan Neil",
+    "understat_name": "Danilo",
+    "score": 0.7143
+  },
+  {
+    "fpl_id": 550,
+    "understat_id": null,
+    "fpl_name": "Ian Poveda-Ocampo",
+    "understat_name": "Pedro Lima",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 551,
+    "understat_id": "8430",
+    "fpl_name": "Chris Rigg",
+    "understat_name": "Chris Richards",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 552,
+    "understat_id": null,
+    "fpl_name": "Noah Sadiki",
+    "understat_name": "Nathan Ak\u00e9",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 553,
+    "understat_id": null,
+    "fpl_name": "Chemsdine Talbi",
+    "understat_name": "Charlie Taylor",
+    "score": 0.5517
+  },
+  {
+    "fpl_id": 554,
+    "understat_id": null,
+    "fpl_name": "Abdoullah Ba",
+    "understat_name": "Abdul Fatawu",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 555,
+    "understat_id": "7382",
+    "fpl_name": "Alan Browne",
+    "understat_name": "Dan Burn",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 556,
+    "understat_id": null,
+    "fpl_name": "Pierre Ekwah Elimby",
+    "understat_name": "Emil Krafth",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 557,
+    "understat_id": "910",
+    "fpl_name": "Harrison Jones",
+    "understat_name": "Harrison Reed",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 558,
+    "understat_id": "10126",
+    "fpl_name": "Jay Matete",
+    "understat_name": "James McAtee",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 559,
+    "understat_id": "7395",
+    "fpl_name": "Nectarios Triantis",
+    "understat_name": "Carlos Vinicius",
+    "score": 0.6061
+  },
+  {
+    "fpl_id": 560,
+    "understat_id": "10822",
+    "fpl_name": "Wilson Isidor",
+    "understat_name": "Wilson Odobert",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 561,
+    "understat_id": "12455",
+    "fpl_name": "Eliezer Mayenda Dossou",
+    "understat_name": "Jayden Danns",
+    "score": 0.6316
+  },
+  {
+    "fpl_id": 562,
+    "understat_id": "1250",
+    "fpl_name": "Ahmed Abdullahi",
+    "understat_name": "Mohamed Salah",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 563,
+    "understat_id": null,
+    "fpl_name": "Lu\u00eds Hemir Silva Semedo",
+    "understat_name": "Luis Guilherme",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 564,
+    "understat_id": null,
+    "fpl_name": "Nazarii Rusyn",
+    "understat_name": "Emerson",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 668,
+    "understat_id": null,
+    "fpl_name": "Granit Xhaka",
+    "understat_name": "Patson Daka",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 670,
+    "understat_id": "6962",
+    "fpl_name": "Robin Roefs",
+    "understat_name": "Robin Olsen",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 678,
+    "understat_id": null,
+    "fpl_name": "Arthur Masuaku",
+    "understat_name": "Harry Amass",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 683,
+    "understat_id": "8285",
+    "fpl_name": "Omar Alderete",
+    "understat_name": "Sander Berge",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 694,
+    "understat_id": "11357",
+    "fpl_name": "Nordi Mukiele",
+    "understat_name": "Noni Madueke",
+    "score": 0.64
+  },
+  {
+    "fpl_id": 724,
+    "understat_id": null,
+    "fpl_name": "Lutsharel Geertruida",
+    "understat_name": "Andreas Pereira",
+    "score": 0.4571
+  },
+  {
+    "fpl_id": 730,
+    "understat_id": null,
+    "fpl_name": "Brian Brobbey",
+    "understat_name": "Bobby Reid",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 735,
+    "understat_id": "900",
+    "fpl_name": "Bertrand Traor\u00e9",
+    "understat_name": "Adama Traor\u00e9",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 774,
+    "understat_id": "586",
+    "fpl_name": "Jenson Jones",
+    "understat_name": "John Stones",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 775,
+    "understat_id": null,
+    "fpl_name": "Tymur Tutierov",
+    "understat_name": "Jurri\u00ebn Timber",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 800,
+    "understat_id": "87",
+    "fpl_name": "Djiamgone Jocelin Ta Bi",
+    "understat_name": "Joelinton",
+    "score": 0.7778
+  },
+  {
+    "fpl_id": 812,
+    "understat_id": null,
+    "fpl_name": "Melker Ellborg",
+    "understat_name": "Armel Bella Kotchap",
+    "score": 0.4848
+  },
+  {
+    "fpl_id": 813,
+    "understat_id": "11317",
+    "fpl_name": "Nilson Angulo",
+    "understat_name": "Danilo",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 565,
+    "understat_id": "8858",
+    "fpl_name": "Guglielmo Vicario",
+    "understat_name": "Guglielmo Vicario",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 566,
+    "understat_id": "8093",
+    "fpl_name": "Brandon Austin",
+    "understat_name": "Brandon Austin",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 567,
+    "understat_id": "13348",
+    "fpl_name": "Anton\u00edn Kinsk\u00fd",
+    "understat_name": "Anton\u00edn Kinsky",
+    "score": 0.9286
+  },
+  {
+    "fpl_id": 568,
+    "understat_id": "6912",
+    "fpl_name": "Pedro Porro Sauceda",
+    "understat_name": "Pedro Porro",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 569,
+    "understat_id": "7218",
+    "fpl_name": "Cristian Romero",
+    "understat_name": "Cristian Romero",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 570,
+    "understat_id": "5261",
+    "fpl_name": "Kevin Danso",
+    "understat_name": "Kevin Danso",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 571,
+    "understat_id": "660",
+    "fpl_name": "Ben Davies",
+    "understat_name": "Ben Davies",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 572,
+    "understat_id": "9105",
+    "fpl_name": "Radu Dr\u0103gu\u0219in",
+    "understat_name": "Radu Dragusin",
+    "score": 0.8462
+  },
+  {
+    "fpl_id": 573,
+    "understat_id": "10764",
+    "fpl_name": "Djed Spence",
+    "understat_name": "Djed Spence",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 574,
+    "understat_id": "8831",
+    "fpl_name": "Destiny Udogie",
+    "understat_name": "Iyenoma Destiny Udogie",
+    "score": 0.7778
+  },
+  {
+    "fpl_id": 575,
+    "understat_id": "10050",
+    "fpl_name": "Micky van de Ven",
+    "understat_name": "Micky van de Ven",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 576,
+    "understat_id": "8719",
+    "fpl_name": "Ashley Phillips",
+    "understat_name": "Kalvin Phillips",
+    "score": 0.7333
+  },
+  {
+    "fpl_id": 577,
+    "understat_id": null,
+    "fpl_name": "Takai K\u014dta",
+    "understat_name": "Patson Daka",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 578,
+    "understat_id": null,
+    "fpl_name": "Luka Vu\u0161kovi\u0107",
+    "understat_name": "Lukasz Fabianski",
+    "score": 0.4828
+  },
+  {
+    "fpl_id": 579,
+    "understat_id": "453",
+    "fpl_name": "Son Heung-min",
+    "understat_name": "Son Heung-Min",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 581,
+    "understat_id": "6818",
+    "fpl_name": "James Maddison",
+    "understat_name": "James Maddison",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 582,
+    "understat_id": "12027",
+    "fpl_name": "Mohammed Kudus",
+    "understat_name": "Mohammed Kudus",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 583,
+    "understat_id": "6691",
+    "fpl_name": "Dejan Kulusevski",
+    "understat_name": "Dejan Kulusevski",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 584,
+    "understat_id": "9780",
+    "fpl_name": "Mathys Tel",
+    "understat_name": "Mathys Tel",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 585,
+    "understat_id": "6108",
+    "fpl_name": "Rodrigo Bentancur",
+    "understat_name": "Rodrigo Bentancur",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 586,
+    "understat_id": "12912",
+    "fpl_name": "Lucas Bergvall",
+    "understat_name": "Lucas Bergvall",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 587,
+    "understat_id": "5609",
+    "fpl_name": "Yves Bissouma",
+    "understat_name": "Yves Bissouma",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 588,
+    "understat_id": "10822",
+    "fpl_name": "Wilson Odobert",
+    "understat_name": "Wilson Odobert",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 589,
+    "understat_id": null,
+    "fpl_name": "Manor Solomon",
+    "understat_name": "Mason Mount",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 590,
+    "understat_id": null,
+    "fpl_name": "Bryan Gil Salvatierra",
+    "understat_name": "Bryan Mbeumo",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 591,
+    "understat_id": "10184",
+    "fpl_name": "Archie Gray",
+    "understat_name": "Archie Gray",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 592,
+    "understat_id": "12603",
+    "fpl_name": "Mikey Moore",
+    "understat_name": "Mikey Moore",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 593,
+    "understat_id": "9021",
+    "fpl_name": "Pape Matar Sarr",
+    "understat_name": "Pape Sarr",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 594,
+    "understat_id": null,
+    "fpl_name": "Yang Min-hyeok",
+    "understat_name": "Yankuba Minteh",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 595,
+    "understat_id": null,
+    "fpl_name": "Callum Olusesi",
+    "understat_name": "Callum Wilson",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 596,
+    "understat_id": "1679",
+    "fpl_name": "Dominic Solanke-Mitchell",
+    "understat_name": "Dominic Solanke",
+    "score": 0.7692
+  },
+  {
+    "fpl_id": 597,
+    "understat_id": "6026",
+    "fpl_name": "Richarlison de Andrade",
+    "understat_name": "Richarlison",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 598,
+    "understat_id": "13127",
+    "fpl_name": "Will Lankshear",
+    "understat_name": "Will Lankshear",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 599,
+    "understat_id": "9332",
+    "fpl_name": "Dane Scarlett",
+    "understat_name": "Dane Scarlett",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 673,
+    "understat_id": null,
+    "fpl_name": "Jo\u00e3o Maria Lobo Alves Palhares Costa Palhinha Gon\u00e7alves",
+    "understat_name": "Alisson",
+    "score": 0.4706
+  },
+  {
+    "fpl_id": 717,
+    "understat_id": null,
+    "fpl_name": "Xavi Simons",
+    "understat_name": "Jahmai Simpson-Pusey",
+    "score": 0.5806
+  },
+  {
+    "fpl_id": 726,
+    "understat_id": "10717",
+    "fpl_name": "Randal Kolo Muani",
+    "understat_name": "Rodrigo Muniz",
+    "score": 0.6087
+  },
+  {
+    "fpl_id": 745,
+    "understat_id": null,
+    "fpl_name": "Jun'ai Byfield",
+    "understat_name": "Gabriel",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 750,
+    "understat_id": "843",
+    "fpl_name": "James Rowswell",
+    "understat_name": "James Ward-Prowse",
+    "score": 0.7097
+  },
+  {
+    "fpl_id": 751,
+    "understat_id": null,
+    "fpl_name": "Yusuf Akhamrich",
+    "understat_name": "Jack Harrison",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 790,
+    "understat_id": "6888",
+    "fpl_name": "Luc\u00e1 Williams-Barnett",
+    "understat_name": "William Saliba",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 796,
+    "understat_id": "10120",
+    "fpl_name": "Conor Gallagher",
+    "understat_name": "Conor Bradley",
+    "score": 0.6429
+  },
+  {
+    "fpl_id": 804,
+    "understat_id": null,
+    "fpl_name": "Jo\u00e3o Victor de Souza Menezes",
+    "understat_name": "Victor Kristiansen",
+    "score": 0.4783
+  },
+  {
+    "fpl_id": 811,
+    "understat_id": null,
+    "fpl_name": "Rio Kyerematen",
+    "understat_name": "Ian Maatsen",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 818,
+    "understat_id": "6818",
+    "fpl_name": "James Wilson",
+    "understat_name": "James Maddison",
+    "score": 0.7692
+  },
+  {
+    "fpl_id": 326,
+    "understat_id": "900",
+    "fpl_name": "Adama Traor\u00e9 Diarra",
+    "understat_name": "Adama Traor\u00e9",
+    "score": 0.7742
+  },
+  {
+    "fpl_id": 600,
+    "understat_id": "2310",
+    "fpl_name": "Alphonse Areola",
+    "understat_name": "Alphonse Areola",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 601,
+    "understat_id": null,
+    "fpl_name": "Wes Foderingham",
+    "understat_name": "Wesley Fofana",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 602,
+    "understat_id": null,
+    "fpl_name": "Kriszti\u00e1n Hegyi",
+    "understat_name": "Christian Eriksen",
+    "score": 0.5625
+  },
+  {
+    "fpl_id": 603,
+    "understat_id": null,
+    "fpl_name": "El Hadji Malick Diouf",
+    "understat_name": "Danilo",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 604,
+    "understat_id": "1245",
+    "fpl_name": "Emerson Palmieri dos Santos",
+    "understat_name": "Emerson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 605,
+    "understat_id": "7332",
+    "fpl_name": "Maximilian Kilman",
+    "understat_name": "Max Kilman",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 606,
+    "understat_id": "6722",
+    "fpl_name": "Konstantinos Mavropanos",
+    "understat_name": "Konstantinos Mavropanos",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 607,
+    "understat_id": null,
+    "fpl_name": "Nayef Aguerd",
+    "understat_name": "Harry Maguire",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 608,
+    "understat_id": "12358",
+    "fpl_name": "Ollie Scarles",
+    "understat_name": "Oliver Scarles",
+    "score": 0.8889
+  },
+  {
+    "fpl_id": 609,
+    "understat_id": "6816",
+    "fpl_name": "Jean-Clair Todibo",
+    "understat_name": "Jean-Clair Todibo",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 610,
+    "understat_id": "5584",
+    "fpl_name": "Aaron Wan-Bissaka",
+    "understat_name": "Aaron Wan-Bissaka",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 611,
+    "understat_id": "11409",
+    "fpl_name": "Kaelan Casey",
+    "understat_name": "Kaelan Casey",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 612,
+    "understat_id": "7365",
+    "fpl_name": "Lucas Tolentino Coelho de Lima",
+    "understat_name": "Lucas Paquet\u00e1",
+    "score": 0.7273
+  },
+  {
+    "fpl_id": 613,
+    "understat_id": "8288",
+    "fpl_name": "Tom\u00e1\u0161 Sou\u010dek",
+    "understat_name": "Tomas Soucek",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 615,
+    "understat_id": "9492",
+    "fpl_name": "Crysencio Summerville",
+    "understat_name": "Crysencio Summerville",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 616,
+    "understat_id": "11926",
+    "fpl_name": "Edson \u00c1lvarez Vel\u00e1zquez",
+    "understat_name": "Edson \u00c1lvarez",
+    "score": 0.7222
+  },
+  {
+    "fpl_id": 617,
+    "understat_id": "3278",
+    "fpl_name": "Maxwel Cornet",
+    "understat_name": "Maxwel Cornet",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 618,
+    "understat_id": "8267",
+    "fpl_name": "Guido Rodr\u00edguez",
+    "understat_name": "Guido Rodr\u00edguez",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 619,
+    "understat_id": "13026",
+    "fpl_name": "Luis Guilherme Lira dos Santos",
+    "understat_name": "Luis Guilherme",
+    "score": 0.8
+  },
+  {
+    "fpl_id": 620,
+    "understat_id": "8563",
+    "fpl_name": "George Earthy",
+    "understat_name": "George Hirst",
+    "score": 0.72
+  },
+  {
+    "fpl_id": 621,
+    "understat_id": "12774",
+    "fpl_name": "Andy Irving",
+    "understat_name": "Andy Irving",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 622,
+    "understat_id": "12296",
+    "fpl_name": "Lewis Orford",
+    "understat_name": "Lewis Orford",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 623,
+    "understat_id": null,
+    "fpl_name": "Freddie Potts",
+    "understat_name": "Eddie Nketiah",
+    "score": 0.5385
+  },
+  {
+    "fpl_id": 624,
+    "understat_id": "1776",
+    "fpl_name": "Jarrod Bowen",
+    "understat_name": "Jarrod Bowen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 625,
+    "understat_id": "6098",
+    "fpl_name": "Niclas F\u00fcllkrug",
+    "understat_name": "Niclas F\u00fcllkrug",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 626,
+    "understat_id": "7908",
+    "fpl_name": "Callum Marshall",
+    "understat_name": "Marshall Munetsi",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 659,
+    "understat_id": "885",
+    "fpl_name": "Kyle Walker-Peters",
+    "understat_name": "Kyle Walker-Peters",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 671,
+    "understat_id": "468",
+    "fpl_name": "Callum Wilson",
+    "understat_name": "Callum Wilson",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 679,
+    "understat_id": "12910",
+    "fpl_name": "Mads Hermansen",
+    "understat_name": "Mads Hermansen",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 708,
+    "understat_id": "12948",
+    "fpl_name": "Mateus Gon\u00e7alo Espanha Fernandes",
+    "understat_name": "Mateus Fernandes",
+    "score": 0.7407
+  },
+  {
+    "fpl_id": 718,
+    "understat_id": null,
+    "fpl_name": "Soungoutou Magassa",
+    "understat_name": "Ismaila Sarr",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 738,
+    "understat_id": "706",
+    "fpl_name": "Lukasz Fabianski",
+    "understat_name": "Lukasz Fabianski",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 747,
+    "understat_id": "1245",
+    "fpl_name": "Ezra Mayers",
+    "understat_name": "Emerson",
+    "score": 0.6154
+  },
+  {
+    "fpl_id": 752,
+    "understat_id": null,
+    "fpl_name": "Airidas Golambeckis",
+    "understat_name": "Ollie Watkins",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 758,
+    "understat_id": "9667",
+    "fpl_name": "Mohamadou Kant\u00e9",
+    "understat_name": "Amadou Onana",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 785,
+    "understat_id": null,
+    "fpl_name": "Pablo Felipe Pereira de Jesus",
+    "understat_name": "Pablo Sarabia",
+    "score": 0.5556
+  },
+  {
+    "fpl_id": 791,
+    "understat_id": null,
+    "fpl_name": "Valent\u00edn Castellanos",
+    "understat_name": "Anthony Elanga",
+    "score": 0.5294
+  },
+  {
+    "fpl_id": 802,
+    "understat_id": null,
+    "fpl_name": "Keiber Lamadrid",
+    "understat_name": "Ali Al-Hamadi",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 815,
+    "understat_id": "6885",
+    "fpl_name": "Axel Disasi",
+    "understat_name": "Axel Disasi",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 627,
+    "understat_id": "978",
+    "fpl_name": "Sam Johnstone",
+    "understat_name": "Sam Johnstone",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 628,
+    "understat_id": "9740",
+    "fpl_name": "Jos\u00e9 Malheiro de S\u00e1",
+    "understat_name": "Jos\u00e9 S\u00e1",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 629,
+    "understat_id": "11361",
+    "fpl_name": "Daniel Bentley",
+    "understat_name": "Daniel Bentley",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 631,
+    "understat_id": "10856",
+    "fpl_name": "Emmanuel Agbadou",
+    "understat_name": "Emmanuel Agbadou",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 632,
+    "understat_id": "6852",
+    "fpl_name": "Matt Doherty",
+    "understat_name": "Matt Doherty",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 633,
+    "understat_id": null,
+    "fpl_name": "Hugo Bueno L\u00f3pez",
+    "understat_name": "Beto",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 634,
+    "understat_id": "9958",
+    "fpl_name": "Yerson Mosquera Valdelamar",
+    "understat_name": "Yerson Mosquera",
+    "score": 0.7317
+  },
+  {
+    "fpl_id": 635,
+    "understat_id": "12756",
+    "fpl_name": "Rodrigo Martins Gomes",
+    "understat_name": "Rodrigo Gomes",
+    "score": 0.7647
+  },
+  {
+    "fpl_id": 636,
+    "understat_id": "10945",
+    "fpl_name": "Santiago Ignacio Bueno",
+    "understat_name": "Santiago Bueno",
+    "score": 0.7778
+  },
+  {
+    "fpl_id": 637,
+    "understat_id": "10293",
+    "fpl_name": "Toti Gomes",
+    "understat_name": "Toti",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 638,
+    "understat_id": null,
+    "fpl_name": "Ki-Jana Hoever",
+    "understat_name": "Kai Havertz",
+    "score": 0.56
+  },
+  {
+    "fpl_id": 639,
+    "understat_id": null,
+    "fpl_name": "Bastien Meupiyou Menadjou",
+    "understat_name": "Murillo",
+    "score": 0.5333
+  },
+  {
+    "fpl_id": 640,
+    "understat_id": "13156",
+    "fpl_name": "Pedro Cardoso de Lima",
+    "understat_name": "Pedro Lima",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 641,
+    "understat_id": "13117",
+    "fpl_name": "Alfie Pond",
+    "understat_name": "Alfie Pond",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 642,
+    "understat_id": "8845",
+    "fpl_name": "Hwang Hee-chan",
+    "understat_name": "Hee-Chan Hwang",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 643,
+    "understat_id": "13022",
+    "fpl_name": "Andr\u00e9 Trindade da Costa Neto",
+    "understat_name": "Andr\u00e9",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 644,
+    "understat_id": "7762",
+    "fpl_name": "Jean-Ricner Bellegarde",
+    "understat_name": "Jean-Ricner Bellegarde",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 645,
+    "understat_id": null,
+    "fpl_name": "Fer L\u00f3pez Gonz\u00e1lez",
+    "understat_name": "Nico Gonz\u00e1lez",
+    "score": 0.5806
+  },
+  {
+    "fpl_id": 646,
+    "understat_id": "11384",
+    "fpl_name": "Jo\u00e3o Victor Gomes da Silva",
+    "understat_name": "Jo\u00e3o Gomes",
+    "score": 0.7059
+  },
+  {
+    "fpl_id": 647,
+    "understat_id": "5682",
+    "fpl_name": "Gon\u00e7alo Manuel Ganchinho Guedes",
+    "understat_name": "Gon\u00e7alo Guedes",
+    "score": 0.6222
+  },
+  {
+    "fpl_id": 648,
+    "understat_id": "7908",
+    "fpl_name": "Marshall Munetsi",
+    "understat_name": "Marshall Munetsi",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 649,
+    "understat_id": "8119",
+    "fpl_name": "Boubacar Traor\u00e9",
+    "understat_name": "Boubacar Traore",
+    "score": 0.9333
+  },
+  {
+    "fpl_id": 650,
+    "understat_id": null,
+    "fpl_name": "Tawanda Chirewa",
+    "understat_name": "Chadi Riad",
+    "score": 0.5882
+  },
+  {
+    "fpl_id": 651,
+    "understat_id": "10072",
+    "fpl_name": "Tom Edozie",
+    "understat_name": "Samuel Edozie",
+    "score": 0.6957
+  },
+  {
+    "fpl_id": 652,
+    "understat_id": "9802",
+    "fpl_name": "Enso Gonz\u00e1lez Medina",
+    "understat_name": "Nico Gonz\u00e1lez",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 653,
+    "understat_id": null,
+    "fpl_name": "Joe Hodge",
+    "understat_name": "Joseph Gomez",
+    "score": 0.5714
+  },
+  {
+    "fpl_id": 655,
+    "understat_id": "12766",
+    "fpl_name": "F\u00e1bio Soares Silva",
+    "understat_name": "Jota Silva",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 656,
+    "understat_id": null,
+    "fpl_name": "Sa\u0161a Kalajd\u017ei\u0107",
+    "understat_name": "Sasa Lukic",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 657,
+    "understat_id": "782",
+    "fpl_name": "Leon Chiwome",
+    "understat_name": "Ben Chilwell",
+    "score": 0.6667
+  },
+  {
+    "fpl_id": 658,
+    "understat_id": "1683",
+    "fpl_name": "Nathan Fraser",
+    "understat_name": "Ryan Fraser",
+    "score": 0.75
+  },
+  {
+    "fpl_id": 663,
+    "understat_id": "11366",
+    "fpl_name": "Jhon Arias",
+    "understat_name": "Jhon Dur\u00e1n",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 682,
+    "understat_id": null,
+    "fpl_name": "David M\u00f8ller Wolfe",
+    "understat_name": "Luke Woolfenden",
+    "score": 0.5926
+  },
+  {
+    "fpl_id": 695,
+    "understat_id": "6345",
+    "fpl_name": "Jackson Tchatchoua",
+    "understat_name": "Jadon Sancho",
+    "score": 0.6
+  },
+  {
+    "fpl_id": 709,
+    "understat_id": null,
+    "fpl_name": "Ladislav Krejc\u00ed",
+    "understat_name": "Andr\u00e9s Garc\u00eda",
+    "score": 0.5
+  },
+  {
+    "fpl_id": 720,
+    "understat_id": null,
+    "fpl_name": "Tolu Arokodare",
+    "understat_name": "Joel Ward",
+    "score": 0.5217
+  },
+  {
+    "fpl_id": 749,
+    "understat_id": "13484",
+    "fpl_name": "Mateus Man\u00e9",
+    "understat_name": "Mateus Man\u00e9",
+    "score": 1.0
+  },
+  {
+    "fpl_id": 766,
+    "understat_id": null,
+    "fpl_name": "Saheed Olagunju",
+    "understat_name": "Ashley Young",
+    "score": 0.5185
+  },
+  {
+    "fpl_id": 767,
+    "understat_id": "1006",
+    "fpl_name": "Luke Rawlings",
+    "understat_name": "Luke Shaw",
+    "score": 0.6364
+  },
+  {
+    "fpl_id": 777,
+    "understat_id": null,
+    "fpl_name": "Temple Ojinnaka",
+    "understat_name": "Patson Daka",
+    "score": 0.5263
+  },
+  {
+    "fpl_id": 778,
+    "understat_id": null,
+    "fpl_name": "Ethan Sutherland",
+    "understat_name": "Nathan Broadhead",
+    "score": 0.5625
+  },
+  {
+    "fpl_id": 809,
+    "understat_id": null,
+    "fpl_name": "Jerome Abbey",
+    "understat_name": "James Bree",
+    "score": 0.5455
+  },
+  {
+    "fpl_id": 816,
+    "understat_id": null,
+    "fpl_name": "Angel Gomes",
+    "understat_name": "Rodrigo Gomes",
+    "score": 0.5833
+  },
+  {
+    "fpl_id": 817,
+    "understat_id": "4419",
+    "fpl_name": "Adam Armstrong",
+    "understat_name": "Adam Armstrong",
+    "score": 1.0
+  }
+]

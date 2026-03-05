@@ -1,0 +1,947 @@
+{
+  "fetched_at": "2026-03-05T04:02:55Z",
+  "source": "manual_csv",
+  "source_file": "premierinjuries_20260304 .csv",
+  "injuries": [
+    {
+      "player_name": "Conor Bradley",
+      "team": "Liverpool",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Surgery",
+      "potential_return": "21/11/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 375
+    },
+    {
+      "player_name": "Giovanni Leoni",
+      "team": "Liverpool",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "02/08/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 692
+    },
+    {
+      "player_name": "Wataru Endo",
+      "team": "Liverpool",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Foot Injury",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 392
+    },
+    {
+      "player_name": "Alexander Isak",
+      "team": "Liverpool",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Fibula Fracture",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 499
+    },
+    {
+      "player_name": "Florian Wirtz",
+      "team": "Liverpool",
+      "reason": "Lower Back Injury",
+      "further_detail": "Back Injury",
+      "potential_return": "10/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 382
+    },
+    {
+      "player_name": "Wilson Odobert",
+      "team": "Spurs",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "28/11/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 588
+    },
+    {
+      "player_name": "James Maddison",
+      "team": "Spurs",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 581
+    },
+    {
+      "player_name": "Dejan Kulusevski",
+      "team": "Spurs",
+      "reason": "Knee Injury",
+      "further_detail": "Patella Fracture",
+      "potential_return": "01/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 583
+    },
+    {
+      "player_name": "Rodrigo Bentancur",
+      "team": "Spurs",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Surgery",
+      "potential_return": "01/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 585
+    },
+    {
+      "player_name": "Ben Davies",
+      "team": "Spurs",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Surgery",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 571
+    },
+    {
+      "player_name": "Mohammed Kudus",
+      "team": "Spurs",
+      "reason": "Thigh Injury",
+      "further_detail": "Thigh Injury",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 582
+    },
+    {
+      "player_name": "Lucas Bergvall",
+      "team": "Spurs",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "High Ankle Sprain",
+      "potential_return": "10/04/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 0,
+      "fpl_id": 586
+    },
+    {
+      "player_name": "Destiny Udogie",
+      "team": "Spurs",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "15/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 574
+    },
+    {
+      "player_name": "Cristian Romero",
+      "team": "Spurs",
+      "reason": "Suspended",
+      "further_detail": "Sending Off - Red Card",
+      "potential_return": "10/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 569
+    },
+    {
+      "player_name": "Diop Djed-Hotep Spence",
+      "team": "Spurs",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Calf Injury",
+      "potential_return": "10/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 573
+    },
+    {
+      "player_name": "Josh Cullen",
+      "team": "Burnley",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "18/09/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 205
+    },
+    {
+      "player_name": "Connor Roberts",
+      "team": "Burnley",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Achilles Surgery",
+      "potential_return": "01/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 186
+    },
+    {
+      "player_name": "Zeki Amdouni",
+      "team": "Burnley",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "03/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 216
+    },
+    {
+      "player_name": "Axel Tuanzebe",
+      "team": "Burnley",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Achilles Injury",
+      "potential_return": "21/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 198
+    },
+    {
+      "player_name": "Armando Broja",
+      "team": "Burnley",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Injury",
+      "potential_return": "21/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 680
+    },
+    {
+      "player_name": "Marcus Edwards",
+      "team": "Burnley",
+      "reason": "Other",
+      "further_detail": "Knock",
+      "potential_return": "14/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 50,
+      "fpl_id": 206
+    },
+    {
+      "player_name": "Zian Flemming",
+      "team": "Burnley",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Calf Strain",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 215
+    },
+    {
+      "player_name": "Jordan Beyer",
+      "team": "Burnley",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 194
+    },
+    {
+      "player_name": "Mike Tresor Ndayishimiye",
+      "team": "Burnley",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Injury",
+      "potential_return": "",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 214
+    },
+    {
+      "player_name": "Fabio Freitas Gouveia Carvalho",
+      "team": "Brentford",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "11/09/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 123
+    },
+    {
+      "player_name": "Antoni Milambo",
+      "team": "Brentford",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "09/08/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 122
+    },
+    {
+      "player_name": "Joshua Dasilva",
+      "team": "Brentford",
+      "reason": "Knee Injury",
+      "further_detail": "Combined ACL and MCL rupture",
+      "potential_return": "16/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 748
+    },
+    {
+      "player_name": "Aaron Hickey",
+      "team": "Brentford",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 116
+    },
+    {
+      "player_name": "Vitaly Janelt",
+      "team": "Brentford",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Bruised Metatarsal",
+      "potential_return": "16/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 125
+    },
+    {
+      "player_name": "Reiss Nelson",
+      "team": "Brentford",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Calf Strain",
+      "potential_return": "09/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 27
+    },
+    {
+      "player_name": "Rico Henry",
+      "team": "Brentford",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 109
+    },
+    {
+      "player_name": "Stefanos Tzimas",
+      "team": "Brighton",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "11/09/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 180
+    },
+    {
+      "player_name": "Adam Webster",
+      "team": "Brighton",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 153
+    },
+    {
+      "player_name": "Lewis Dunk",
+      "team": "Brighton",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Injury",
+      "potential_return": "14/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 50,
+      "fpl_id": 146
+    },
+    {
+      "player_name": "Mikel Merino",
+      "team": "Arsenal",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Foot Injury",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 22
+    },
+    {
+      "player_name": "Ben White",
+      "team": "Arsenal",
+      "reason": "Other",
+      "further_detail": "Muscular Injury",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 11
+    },
+    {
+      "player_name": "Martin Odegaard",
+      "team": "Arsenal",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Injury",
+      "potential_return": "07/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 17
+    },
+    {
+      "player_name": "William Saliba",
+      "team": "Arsenal",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Sprain",
+      "potential_return": "07/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 6
+    },
+    {
+      "player_name": "Boubacar Kamara",
+      "team": "Aston Villa",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Surgery",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 58
+    },
+    {
+      "player_name": "Youri Tielemans",
+      "team": "Aston Villa",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Ligament Injury",
+      "potential_return": "17/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 48
+    },
+    {
+      "player_name": "Andres Garcia Robledo",
+      "team": "Aston Villa",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 42
+    },
+    {
+      "player_name": "John McGinn",
+      "team": "Aston Villa",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Surgery",
+      "potential_return": "15/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 54
+    },
+    {
+      "player_name": "Harvey Elliott",
+      "team": "Aston Villa",
+      "reason": "Other",
+      "further_detail": "Undisclosed",
+      "potential_return": "12/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 389
+    },
+    {
+      "player_name": "Jack Grealish",
+      "team": "Everton",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Metatarsal Stress Fracture",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 419
+    },
+    {
+      "player_name": "Carlos Alcaraz Duran",
+      "team": "Everton",
+      "reason": "Other",
+      "further_detail": "Knock",
+      "potential_return": "21/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 301
+    },
+    {
+      "player_name": "Seamus Coleman",
+      "team": "Everton",
+      "reason": "Other",
+      "further_detail": "Muscular Injury",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 294
+    },
+    {
+      "player_name": "Kevin Santos Lopes de Macedo",
+      "team": "Fulham",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Fifth Metatarsal Fracture",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 731
+    },
+    {
+      "player_name": "Harry Wilson",
+      "team": "Fulham",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Sprain",
+      "potential_return": "15/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 50,
+      "fpl_id": 329
+    },
+    {
+      "player_name": "Emil Krafth",
+      "team": "Newcastle",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Injury",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 479
+    },
+    {
+      "player_name": "Fabian Schar",
+      "team": "Newcastle",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Ligament Injury",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 474
+    },
+    {
+      "player_name": "Bruno Guimaraes",
+      "team": "Newcastle",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 488
+    },
+    {
+      "player_name": "Lewis Miley",
+      "team": "Newcastle",
+      "reason": "Thigh Injury",
+      "further_detail": "Dead Leg",
+      "potential_return": "18/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 497
+    },
+    {
+      "player_name": "Valentino Livramento",
+      "team": "Newcastle",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "07/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 477
+    },
+    {
+      "player_name": "Nick Woltemade",
+      "team": "Newcastle",
+      "reason": "Illness",
+      "further_detail": "Sickness Bug",
+      "potential_return": "07/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 714
+    },
+    {
+      "player_name": "John Victor",
+      "team": "Nott'm Forest",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Inflammation",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 715
+    },
+    {
+      "player_name": "Nicolo Savona",
+      "team": "Nott'm Forest",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Surgery",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 716
+    },
+    {
+      "player_name": "Chris Wood",
+      "team": "Nott'm Forest",
+      "reason": "Knee Injury",
+      "further_detail": "Cartilage Injury",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 525
+    },
+    {
+      "player_name": "Stefan Ortega Moreno",
+      "team": "Nott'm Forest",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Calf Injury",
+      "potential_return": "12/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 400
+    },
+    {
+      "player_name": "Willy Boly",
+      "team": "Nott'm Forest",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Injury",
+      "potential_return": "",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 514
+    },
+    {
+      "player_name": "Jocelin Ta Bi",
+      "team": "Sunderland",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Surgery",
+      "potential_return": "31/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 800
+    },
+    {
+      "player_name": "Romaine Mundle",
+      "team": "Sunderland",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Surgery",
+      "potential_return": "01/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 548
+    },
+    {
+      "player_name": "Nordi Mukiele Mulere",
+      "team": "Sunderland",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Calf Strain",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 694
+    },
+    {
+      "player_name": "Brian Brobbey",
+      "team": "Sunderland",
+      "reason": "Groin/Hip/Pelvic Injury",
+      "further_detail": "Adductor Strain",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 730
+    },
+    {
+      "player_name": "Robin Roefs",
+      "team": "Sunderland",
+      "reason": "Thigh Injury",
+      "further_detail": "Tight Hamstring",
+      "potential_return": "22/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 0,
+      "fpl_id": 670
+    },
+    {
+      "player_name": "Dennis Cirkin",
+      "team": "Sunderland",
+      "reason": "Thigh Injury",
+      "further_detail": "Tight Hamstring",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 535
+    },
+    {
+      "player_name": "Reinildo Isnard Mandava",
+      "team": "Sunderland",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Injury",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 541
+    },
+    {
+      "player_name": "Bertrand Isidore Traore",
+      "team": "Sunderland",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Injury",
+      "potential_return": "",
+      "condition": "Currently Being Assessed",
+      "confidence": 0,
+      "fpl_id": 735
+    },
+    {
+      "player_name": "Levi Colwill",
+      "team": "Chelsea",
+      "reason": "Knee Injury",
+      "further_detail": "Anterior Cruciate Ligament Injury - ACL Injury",
+      "potential_return": "23/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 227
+    },
+    {
+      "player_name": "Jamie Bynoe-Gittens",
+      "team": "Chelsea",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "21/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 239
+    },
+    {
+      "player_name": "Pedro Lomba Neto",
+      "team": "Chelsea",
+      "reason": "Suspended",
+      "further_detail": "Sending Off - Two Yellow Cards",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 236
+    },
+    {
+      "player_name": "Dario Luis Essugo",
+      "team": "Chelsea",
+      "reason": "Other",
+      "further_detail": "Muscular Injury",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 247
+    },
+    {
+      "player_name": "Estevao Almeida de Oliveira Goncalves",
+      "team": "Chelsea",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 238
+    },
+    {
+      "player_name": "Mykhailo Mudryk",
+      "team": "Chelsea",
+      "reason": "Suspended",
+      "further_detail": "FA Misconduct Charge",
+      "potential_return": "",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 245
+    },
+    {
+      "player_name": "Cheick Doucoure",
+      "team": "Crystal Palace",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Surgery",
+      "potential_return": "01/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 268
+    },
+    {
+      "player_name": "Edward Nketiah",
+      "team": "Crystal Palace",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 284
+    },
+    {
+      "player_name": "Jean-Philippe Mateta",
+      "team": "Crystal Palace",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Inflammation",
+      "potential_return": "12/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 50,
+      "fpl_id": 283
+    },
+    {
+      "player_name": "Maxence Lacroix",
+      "team": "Crystal Palace",
+      "reason": "Suspended",
+      "further_detail": "Sending Off - Red Card",
+      "potential_return": "12/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 257
+    },
+    {
+      "player_name": "Mateo Kovacic",
+      "team": "Man City",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Injury",
+      "potential_return": "01/05/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 422
+    },
+    {
+      "player_name": "Josko Gvardiol",
+      "team": "Man City",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Tibia Fracture",
+      "potential_return": "24/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 403
+    },
+    {
+      "player_name": "Nico O'Reilly",
+      "team": "Man City",
+      "reason": "Ankle/Foot Injury",
+      "further_detail": "Ankle Sprain",
+      "potential_return": "11/03/2026",
+      "condition": "Currently Being Assessed",
+      "confidence": 25,
+      "fpl_id": 411
+    },
+    {
+      "player_name": "Max Alleyne",
+      "team": "Man City",
+      "reason": "Other",
+      "further_detail": "Knock",
+      "potential_return": "11/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 794
+    },
+    {
+      "player_name": "Lewis Cook",
+      "team": "Bournemouth",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Injury",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 88
+    },
+    {
+      "player_name": "Ben Gannon-Doak",
+      "team": "Bournemouth",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Surgery",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 391
+    },
+    {
+      "player_name": "Justin Kluivert",
+      "team": "Bournemouth",
+      "reason": "Knee Injury",
+      "further_detail": "Knee Surgery",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 81
+    },
+    {
+      "player_name": "Julio Soler",
+      "team": "Bournemouth",
+      "reason": "Other",
+      "further_detail": "Muscular Injury",
+      "potential_return": "",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 80
+    },
+    {
+      "player_name": "Matthijs de Ligt",
+      "team": "Man Utd",
+      "reason": "Lower Back Injury",
+      "further_detail": "Back Injury",
+      "potential_return": "10/04/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 436
+    },
+    {
+      "player_name": "Patrick Dorgu Larsson",
+      "team": "Man Utd",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "20/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 441
+    },
+    {
+      "player_name": "Mason Mount",
+      "team": "Man Utd",
+      "reason": "Other",
+      "further_detail": "Muscular Injury",
+      "potential_return": "15/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 455
+    },
+    {
+      "player_name": "Lisandro Martinez",
+      "team": "Man Utd",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Calf Strain",
+      "potential_return": "15/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 437
+    },
+    {
+      "player_name": "Noah Okafor",
+      "team": "Leeds",
+      "reason": "Thigh Injury",
+      "further_detail": "Hamstring Strain",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 698
+    },
+    {
+      "player_name": "Freddie Potts",
+      "team": "West Ham",
+      "reason": "Suspended",
+      "further_detail": "Sending Off - Red Card",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 623
+    },
+    {
+      "player_name": "Pablo Felipe Pereira de Jesus",
+      "team": "West Ham",
+      "reason": "Calf/Shin/Heel Injury",
+      "further_detail": "Calf Strain",
+      "potential_return": "14/03/2026",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 785
+    },
+    {
+      "player_name": "Lukasz Fabianski",
+      "team": "West Ham",
+      "reason": "Lower Back Injury",
+      "further_detail": "Back Injury",
+      "potential_return": "",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 738
+    },
+    {
+      "player_name": "Enso Gonzalez Medina",
+      "team": "Wolves",
+      "reason": "Knee Injury",
+      "further_detail": "Meniscus Tear",
+      "potential_return": "",
+      "condition": "Not Available",
+      "confidence": 0,
+      "fpl_id": 652
+    }
+  ]
+}
