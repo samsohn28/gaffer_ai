@@ -2,8 +2,5 @@
 __pycache__/
 *.pyc
 .env
-data/manual/
-data/raw/
-data/processed/
-data/fpl_history.db
+data/
 *.ipynb_checkpoints
