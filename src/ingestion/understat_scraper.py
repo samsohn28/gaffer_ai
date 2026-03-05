@@ -25,7 +25,7 @@ import requests
 LEAGUE_DATA_URL = "https://understat.com/getLeagueData/EPL/{year}"
 PLAYER_DATA_URL = "https://understat.com/getPlayerData/{player_id}"
 AJAX_HEADERS = {"X-Requested-With": "XMLHttpRequest"}
-CURRENT_SEASON_YEAR = "2024"  # 2024/25 season
+CURRENT_SEASON_YEAR = "2025"  # 2025/26 season
 REQUEST_DELAY = 0.5  # seconds between player requests
 
 OUTPUT_DIR = Path(__file__).resolve().parents[2] / "data" / "bronze"

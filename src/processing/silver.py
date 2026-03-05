@@ -91,8 +91,16 @@ def clean_fixtures() -> Path:
     return out
 
 
+def _latest_bronze(pattern: str) -> Path:
+    """Return the most recently modified file matching a glob pattern in BRONZE."""
+    matches = sorted(BRONZE.glob(pattern), key=lambda p: p.stat().st_mtime, reverse=True)
+    if not matches:
+        raise FileNotFoundError(f"No file matching '{pattern}' in {BRONZE}")
+    return matches[0]
+
+
 def clean_understat_players() -> Path:
-    data = json.loads((BRONZE / "understat_players_2024.json").read_text())
+    data = json.loads(_latest_bronze("understat_players_*.json").read_text())
     df = pd.DataFrame(data)
 
     for col in ["xG", "xA", "npxG"]:
@@ -118,7 +126,7 @@ def clean_understat_players() -> Path:
 
 
 def clean_understat_matches() -> Path:
-    data = json.loads((BRONZE / "understat_matches_2024.json").read_text())
+    data = json.loads(_latest_bronze("understat_matches_*.json").read_text())
     df = pd.DataFrame(data)
 
     for col in ["xG", "xA", "npxG", "npg"]:
