@@ -20,7 +20,7 @@ python -m src.optimizer.squad_builder    # pick optimal squad
 
 ### Data ingestion
 - [x] FPL bootstrap-static API (players, teams, gameweeks)
-- [ ] FPL live gameweek endpoint (in-game points, bonus)
+- [x] FPL live gameweek endpoint (in-game points, bonus)
 - [x] FPL fixtures endpoint (schedule, home/away)
 - [ ] Understat scraper (xG, xA, xGI per player per match)
 - [ ] Historical season backfill
