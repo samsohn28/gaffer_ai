@@ -19,6 +19,8 @@ python -m src.ingestion.fpl_api          # fetch latest FPL data + fixtures
 python -m src.ingestion.understat_scraper  # fetch xG/xA from Understat
 python -m src.ingestion.odds_api         # fetch betting market odds (requires ODDS_API_KEY in .env)
 python -m src.ingestion.clubelo          # fetch ClubElo team strength ratings
+python -m src.ingestion.injuries_from_csv     # parse premierinjuries.com CSV export (data/manual/premierinjuries_*.csv)
+python -m src.ingestion.premier_injuries      # parse premierinjuries.com emails (requires GMAIL_ADDRESS + GMAIL_APP_PASSWORD in .env)
 
 # Run pipeline
 python -m src.features.build_heuristics  # score players (heuristic)
@@ -31,6 +33,13 @@ To use the odds ingestion, add your [The Odds API](https://the-odds-api.com) key
 ODDS_API_KEY=your_key_here
 ```
 
+For Gmail-based injury notifications, also add:
+
+```
+GMAIL_ADDRESS=you@gmail.com
+GMAIL_APP_PASSWORD=xxxx xxxx xxxx xxxx
+```
+
 ## Roadmap
 
 ### Data ingestion
@@ -40,6 +49,8 @@ ODDS_API_KEY=your_key_here
 - [x] Understat scraper (xG, xA, xGI per player per match)
 - [x] Betting market odds (The Odds API): implied clean sheet + anytime goalscorer probabilities
 - [x] ClubElo team strength ratings (opponent difficulty signal)
+- [x] Premier Injuries CSV parser (manual export from premierinjuries.com)
+- [x] Premier Injuries Gmail parser (email notifications from premierinjuries.com)
 - [ ] Historical season backfill
 
 ### Feature engineering
