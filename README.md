@@ -11,9 +11,23 @@ An FPL (Fantasy Premier League) AI that picks your squad each gameweek using dat
 ## Quickstart
 
 ```bash
-python -m src.ingestion.fpl_api          # fetch latest FPL data
+# Install dependencies
+pip install -r requirements.txt
+
+# Ingest data
+python -m src.ingestion.fpl_api          # fetch latest FPL data + fixtures
+python -m src.ingestion.understat_scraper  # fetch xG/xA from Understat
+python -m src.ingestion.odds_api         # fetch betting market odds (requires ODDS_API_KEY in .env)
+
+# Run pipeline
 python -m src.features.build_heuristics  # score players (heuristic)
 python -m src.optimizer.squad_builder    # pick optimal squad
+```
+
+To use the odds ingestion, add your [The Odds API](https://the-odds-api.com) key to a `.env` file:
+
+```
+ODDS_API_KEY=your_key_here
 ```
 
 ## Roadmap
@@ -23,6 +37,7 @@ python -m src.optimizer.squad_builder    # pick optimal squad
 - [x] FPL live gameweek endpoint (in-game points, bonus)
 - [x] FPL fixtures endpoint (schedule, home/away)
 - [x] Understat scraper (xG, xA, xGI per player per match)
+- [x] Betting market odds (The Odds API): implied clean sheet + anytime goalscorer probabilities
 - [ ] Historical season backfill
 
 ### Feature engineering
