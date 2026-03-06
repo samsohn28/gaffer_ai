@@ -14,9 +14,11 @@ Two passes:
 Also builds an FPL <-> Understat ID map by fuzzy-matching player names.
 """
 
+import html
 import json
 import sys
 import time
+import unicodedata
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -68,14 +70,37 @@ def save_json(data, filename: str) -> Path:
 # FPL <-> Understat name matching
 # ---------------------------------------------------------------------------
 
+def _normalize(s: str) -> str:
+    """Lowercase, unescape HTML entities, strip Unicode accents."""
+    s = html.unescape(s)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    return s.lower()
+
+
 def _similarity(a: str, b: str) -> float:
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+    """Sequence + token-overlap similarity on normalized strings.
+
+    Token overlap catches cases where one name is a substring of another
+    (e.g. 'Manuel Ugarte' vs 'Manuel Ugarte Ribeiro') without being fooled
+    by names that share only one token (e.g. 'Travis Patterson' vs
+    'Nathan Patterson').
+    """
+    na, nb = _normalize(a), _normalize(b)
+    seq_score = SequenceMatcher(None, na, nb).ratio()
+
+    tokens_a = set(na.split())
+    tokens_b = set(nb.split())
+    shorter = tokens_a if len(tokens_a) <= len(tokens_b) else tokens_b
+    longer  = tokens_a if len(tokens_a) >  len(tokens_b) else tokens_b
+    token_score = len(shorter & longer) / len(shorter) if shorter else 0.0
+
+    return max(seq_score, token_score)
 
 
 def build_fpl_understat_map(
     fpl_elements: list[dict],
     understat_players: list[dict],
-    threshold: float = 0.6,
+    threshold: float = 0.85,
 ) -> list[dict]:
     mapping = []
     for fpl in fpl_elements:
@@ -163,7 +188,7 @@ def main():
         print(f"  Matched {matched}/{len(fpl_elements)} FPL players -> {path}")
         unmatched = [m for m in mapping if m["understat_id"] is None]
         if unmatched:
-            print(f"  {len(unmatched)} unmatched (score < 0.6):")
+            print(f"  {len(unmatched)} unmatched (score < {threshold}):")
             for m in unmatched[:10]:
                 print(f"    fpl_id={m['fpl_id']} '{m['fpl_name']}' (best: '{m['understat_name']}', score={m['score']})")
             if len(unmatched) > 10:

@@ -108,19 +108,28 @@ def main():
     X_val = X_val.reindex(columns=X_train.columns, fill_value=0)
     X_test = X_test.reindex(columns=X_train.columns, fill_value=0)
 
+    # Use early stopping when a validation set is available so the number of
+    # trees is chosen empirically rather than fixed. Fall back to a capped
+    # n_estimators when there is no val split.
+    has_val = not val_df.empty
     model = XGBRegressor(
-        n_estimators=300,
+        n_estimators=2000,
         learning_rate=0.05,
         max_depth=5,
         subsample=0.8,
         tree_method="hist",
         random_state=42,
+        early_stopping_rounds=30 if has_val else None,
+        eval_metric="mae" if has_val else None,
     )
-    eval_set = [(X_val, y_val)] if not val_df.empty else []
+    eval_set = [(X_val, y_val)] if has_val else []
     model.fit(X_train, y_train, eval_set=eval_set, verbose=False)
 
+    if has_val:
+        print(f"Best iteration: {model.best_iteration}")
+
     from sklearn.metrics import mean_absolute_error
-    if not val_df.empty and not test_df.empty:
+    if has_val and not test_df.empty:
         val_mae = mean_absolute_error(y_val, model.predict(X_val))
         test_mae = mean_absolute_error(y_test, model.predict(X_test))
         print(f"Val MAE: {val_mae:.3f}  |  Test MAE: {test_mae:.3f}")

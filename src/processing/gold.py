@@ -138,7 +138,8 @@ def build_historical_rows(
     # Build FPL team name → id lookup
     name_to_id = dict(zip(teams["name"], teams["id"]))
 
-    # Build fixture lookup: (date, fpl_h_name, fpl_a_name) → (gw, team_h_id, team_a_id)
+    # Build fixture lookup: (date_str, fpl_h_name, fpl_a_name) → (gw, team_h_id, team_a_id)
+    # kickoff_date is a datetime.date object; stringify to match understat's "YYYY-MM-DD" strings.
     id_to_name = dict(zip(teams["id"], teams["name"]))
     fix_lookup: dict[tuple, tuple] = {}
     for _, fx in fixtures.iterrows():
@@ -146,7 +147,7 @@ def build_historical_rows(
             continue
         h_name = id_to_name.get(fx["team_h"], "")
         a_name = id_to_name.get(fx["team_a"], "")
-        key = (fx["kickoff_date"], h_name, a_name)
+        key = (str(fx["kickoff_date"]), h_name, a_name)
         fix_lookup[key] = (int(fx["event"]), int(fx["team_h"]), int(fx["team_a"]))
 
     # Build fpl_map: understat_id (int) → fpl_id
@@ -578,7 +579,41 @@ def main():
         hist = build_historical_rows_fpl(ph, fixtures, teams, players, player_gw_features, hist_elo)
     else:
         hist = pd.DataFrame()
-    print(f"  Historical rows: {len(hist)}")
+    print(f"  FPL historical rows: {len(hist)}")
+
+    # Enrich with Understat xG/xA where available
+    fpl_map_path = SILVER / "fpl_map.parquet"
+    us_matches_path = BRONZE / "understat_matches_2025.json"
+    if fpl_map_path.exists() and us_matches_path.exists() and not hist.empty:
+        print("Enriching with Understat xG/xA...")
+        fpl_map = pd.read_parquet(fpl_map_path)
+        us_matches_raw = json.loads(us_matches_path.read_text())
+        us_matches = pd.DataFrame(us_matches_raw)
+        us_rows = build_historical_rows(
+            us_matches, fixtures, teams, fpl_map, players,
+            live_points, player_gw_features, hist_elo,
+        )
+        print(f"  Understat rows matched: {len(us_rows)}")
+        if not us_rows.empty:
+            # Aggregate per (player_id, gameweek_id) to handle double GWs
+            xg_cols = ["xG_match", "xA_match", "goals_match", "assists_match",
+                       "minutes_match", "shots_match", "key_passes_match"]
+            us_agg = (
+                us_rows.groupby(["player_id", "gameweek_id"])[xg_cols]
+                .sum()
+                .reset_index()
+            )
+            # Left-join onto FPL rows and fill nulls
+            hist = hist.merge(us_agg, on=["player_id", "gameweek_id"], how="left", suffixes=("", "_us"))
+            for col in xg_cols:
+                us_col = col + "_us"
+                if us_col in hist.columns:
+                    hist[col] = hist[col].combine_first(hist[us_col])
+                    hist.drop(columns=[us_col], inplace=True)
+            matched_rows = hist[xg_cols[0]].notna().sum()
+            print(f"  Rows enriched with xG/xA: {matched_rows}/{len(hist)}")
+    else:
+        print("Skipping Understat enrichment (fpl_map or understat_matches_2025.json not found)")
 
     print("Building next GW rows...")
     next_gw = build_next_gw_rows(players, fixtures, teams, clubelo, odds, injuries)
