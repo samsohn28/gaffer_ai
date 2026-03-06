@@ -220,6 +220,31 @@ def clean_odds() -> Path:
     return out
 
 
+def clean_player_history() -> Path:
+    data = json.loads((BRONZE / "player_history.json").read_text())
+    df = pd.DataFrame(data)
+    df["ict_index"] = pd.to_numeric(df["ict_index"], errors="coerce")
+    cols = ["player_id", "round", "value", "total_points", "ict_index", "minutes", "starts"]
+    cols = [c for c in cols if c in df.columns]
+    df = df[cols]
+    out = SILVER / "player_history.parquet"
+    df.to_parquet(out, index=False)
+    return out
+
+
+def clean_clubelo_historical() -> Path:
+    data = json.loads((BRONZE / "clubelo_historical.json").read_text())
+    rows = []
+    for entry in data:
+        gw = int(entry["gw"])
+        for team_name, elo in entry["ratings"].items():
+            rows.append({"gw": gw, "team_name": team_name, "elo": float(elo)})
+    df = pd.DataFrame(rows)
+    out = SILVER / "clubelo_historical.parquet"
+    df.to_parquet(out, index=False)
+    return out
+
+
 def clean_injuries() -> Path:
     data = json.loads((BRONZE / "injuries.json").read_text())
     df = pd.DataFrame(data.get("injuries", []))
@@ -246,6 +271,8 @@ def main():
         ("clubelo.parquet", clean_clubelo),
         ("odds.parquet", clean_odds),
         ("injuries.parquet", clean_injuries),
+        ("player_history.parquet", clean_player_history),
+        ("clubelo_historical.parquet", clean_clubelo_historical),
     ]
 
     for name, fn in cleaners:

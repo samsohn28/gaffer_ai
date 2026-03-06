@@ -75,13 +75,63 @@ def _price_rise_prob(row: pd.Series) -> float:
     return float(max(0.0, min(1.0, raw)))
 
 
+def build_player_gw_features(history: pd.DataFrame) -> pd.DataFrame:
+    """
+    From per-GW player history, compute pre-match rolling features for each
+    (player_id, round) combo:
+      - cost          : value / 10 at that round
+      - ppg           : cumulative points / games *before* this round
+      - form          : rolling 5-game points average *before* this round
+      - ict_index_form: rolling 5-game ict average *before* this round
+    """
+    history = history.sort_values(["player_id", "round"]).copy()
+
+    rows = []
+    for pid, grp in history.groupby("player_id"):
+        grp = grp.sort_values("round").reset_index(drop=True)
+        cum_points = 0.0
+        cum_games = 0
+
+        for i, row in grp.iterrows():
+            rnd = int(row["round"])
+            cost = row["value"] / 10.0
+
+            # Pre-match: use stats from all previous rounds
+            if cum_games == 0:
+                ppg = None
+                form = None
+                ict_form = None
+            else:
+                ppg = cum_points / cum_games
+                prev = grp.loc[:i - 1]
+                tail5 = prev.tail(5)
+                form = float(tail5["total_points"].mean())
+                ict_form = float(tail5["ict_index"].mean())
+
+            rows.append({
+                "player_id": pid,
+                "gameweek_id": rnd,
+                "cost": cost,
+                "ppg": ppg,
+                "form": form,
+                "ict_index_form": ict_form,
+            })
+
+            cum_points += row["total_points"]
+            cum_games += 1
+
+    return pd.DataFrame(rows)
+
+
 def build_historical_rows(
     us_matches: pd.DataFrame,
     fixtures: pd.DataFrame,
     teams: pd.DataFrame,
     fpl_map: pd.DataFrame,
     players: pd.DataFrame,
-    live_gw: dict | None,
+    live_points: dict[tuple[int, int], int],
+    player_gw_features: pd.DataFrame | None = None,
+    hist_elo: dict[tuple[int, str], float] | None = None,
 ) -> pd.DataFrame:
     """Build one row per understat match record, mapped to a GW."""
 
@@ -107,11 +157,16 @@ def build_historical_rows(
         ["web_name", "element_type", "team", "is_penalty_taker", "is_set_piece_taker"]
     ].to_dict("index")
 
-    # Build live GW29 points: fpl_id → total_points
-    live_points: dict[int, int] = {}
-    if live_gw:
-        for el in live_gw.get("elements", []):
-            live_points[el["id"]] = el["stats"].get("total_points")
+    # Build (player_id, gw) → {cost, ppg, form, ict_index_form}
+    pgf_lookup: dict[tuple[int, int], dict] = {}
+    if player_gw_features is not None and not player_gw_features.empty:
+        for _, r in player_gw_features.iterrows():
+            pgf_lookup[(int(r["player_id"]), int(r["gameweek_id"]))] = {
+                "cost": r["cost"],
+                "ppg": r["ppg"],
+                "form": r["form"],
+                "ict_index_form": r["ict_index_form"],
+            }
 
     rows = []
     for _, m in us_matches.iterrows():
@@ -144,9 +199,8 @@ def build_historical_rows(
             is_home = False
             opponent_team_id = team_h_id
 
-        actual_pts = None
-        if gw == 29:
-            actual_pts = live_points.get(fpl_id)
+        actual_pts = live_points.get((gw, fpl_id))
+        pgf = pgf_lookup.get((fpl_id, gw), {})
 
         rows.append({
             "player_id": fpl_id,
@@ -157,18 +211,18 @@ def build_historical_rows(
             "team_name": "",  # filled below
             "opponent_team_id": opponent_team_id,
             "is_home": is_home,
-            # Cost & ownership — null for historical
-            "cost": None,
+            # Cost & ownership
+            "cost": pgf.get("cost"),
             "selected_pct": None,
             "transfers_in_event": None,
             "transfers_out_event": None,
             "price_rise_probability": None,
-            # Form & scoring — null for historical except actual_points
-            "ppg": None,
-            "form": None,
-            "ict_index_form": None,
-            "chance_of_playing": None,
-            "injury_confidence": None,
+            # Form & scoring
+            "ppg": pgf.get("ppg"),
+            "form": pgf.get("form"),
+            "ict_index_form": pgf.get("ict_index_form"),
+            "chance_of_playing": 100,
+            "injury_confidence": 100,
             "actual_points": actual_pts,
             # xG / xA match stats
             "xG_match": m.get("xG"),
@@ -185,12 +239,13 @@ def build_historical_rows(
             # Set piece flags (static per player)
             "is_penalty_taker": pl.get("is_penalty_taker"),
             "is_set_piece_taker": pl.get("is_set_piece_taker"),
-            # Elo — null for historical
-            "elo_for": None,
-            "elo_against": None,
+            # Elo — from historical snapshot if available
+            "elo_for": hist_elo.get((gw, id_to_name.get(fpl_team_id, ""))) if hist_elo else None,
+            "elo_against": hist_elo.get((gw, id_to_name.get(opponent_team_id, ""))) if hist_elo and opponent_team_id else None,
             # Odds — null for historical
             "clean_sheet_prob": None,
             "goalscorer_prob": None,
+            "is_historical": True,
         })
 
     df = pd.DataFrame(rows)
@@ -202,6 +257,118 @@ def build_historical_rows(
     df["team_name"] = df["team_id"].map(id_to_short)
 
     return df
+
+
+def build_historical_rows_fpl(
+    player_history: pd.DataFrame,
+    fixtures: pd.DataFrame,
+    teams: pd.DataFrame,
+    players: pd.DataFrame,
+    player_gw_features: pd.DataFrame | None = None,
+    hist_elo: dict[tuple[int, str], float] | None = None,
+) -> pd.DataFrame:
+    """
+    Build historical training rows from player_history (FPL-native data).
+
+    Each row has the same feature profile as a next-GW prediction row:
+    cost/ppg/form/ict_index_form from rolling history, is_home/opponent from
+    fixtures, elo from historical ClubElo snapshots. Target = total_points.
+    """
+    id_to_name = dict(zip(teams["id"], teams["name"]))
+    id_to_short = dict(zip(teams["id"], teams["short_name"]))
+
+    # player_id → {team_id, element_type, is_penalty_taker, is_set_piece_taker, web_name}
+    pl_lookup = players.set_index("id")[
+        ["team", "element_type", "is_penalty_taker", "is_set_piece_taker", "web_name"]
+    ].to_dict("index")
+
+    # (team_id, gw) → (opponent_team_id, is_home, team_h_difficulty, team_a_difficulty)
+    fixture_lookup: dict[tuple[int, int], tuple] = {}
+    for _, fx in fixtures.iterrows():
+        if pd.isna(fx.get("event")):
+            continue
+        gw = int(fx["event"])
+        h_id, a_id = int(fx["team_h"]), int(fx["team_a"])
+        fixture_lookup[(h_id, gw)] = (a_id, True)
+        fixture_lookup[(a_id, gw)] = (h_id, False)
+
+    # (player_id, gw) → rolling features
+    pgf_lookup: dict[tuple[int, int], dict] = {}
+    if player_gw_features is not None and not player_gw_features.empty:
+        for _, r in player_gw_features.iterrows():
+            pgf_lookup[(int(r["player_id"]), int(r["gameweek_id"]))] = {
+                "cost": r["cost"],
+                "ppg": r["ppg"],
+                "form": r["form"],
+                "ict_index_form": r["ict_index_form"],
+            }
+
+    rows = []
+    for _, ph in player_history.iterrows():
+        pid = int(ph["player_id"])
+        gw = int(ph["round"])
+        actual_pts = ph.get("total_points")
+        if actual_pts is None:
+            continue
+
+        pl = pl_lookup.get(pid, {})
+        fpl_team_id = pl.get("team")
+        if fpl_team_id is None:
+            continue
+
+        fix = fixture_lookup.get((fpl_team_id, gw))
+        if fix is None:
+            opponent_team_id, is_home = None, None
+        else:
+            opponent_team_id, is_home = fix
+
+        own_name = id_to_name.get(fpl_team_id, "")
+        opp_name = id_to_name.get(opponent_team_id, "") if opponent_team_id else ""
+
+        pgf = pgf_lookup.get((pid, gw), {})
+        pos_code = pl.get("element_type")
+        position = POSITION_MAP.get(pos_code, "") if pos_code else ""
+
+        rows.append({
+            "player_id": pid,
+            "gameweek_id": gw,
+            "player_name": pl.get("web_name", ""),
+            "position": position,
+            "team_id": fpl_team_id,
+            "team_name": id_to_short.get(fpl_team_id, ""),
+            "opponent_team_id": opponent_team_id,
+            "is_home": is_home,
+            "cost": pgf.get("cost"),
+            "selected_pct": None,
+            "transfers_in_event": None,
+            "transfers_out_event": None,
+            "price_rise_probability": None,
+            "ppg": pgf.get("ppg"),
+            "form": pgf.get("form"),
+            "ict_index_form": pgf.get("ict_index_form"),
+            "chance_of_playing": 100,
+            "injury_confidence": 100,
+            "actual_points": float(actual_pts),
+            "xG_match": None,
+            "xA_match": None,
+            "goals_match": None,
+            "assists_match": None,
+            "minutes_match": None,
+            "shots_match": None,
+            "key_passes_match": None,
+            "defensive_contribution_per90": None,
+            "recoveries_per90": None,
+            "tackles_per90": None,
+            "is_penalty_taker": pl.get("is_penalty_taker"),
+            "is_set_piece_taker": pl.get("is_set_piece_taker"),
+            "elo_for": hist_elo.get((gw, own_name)) if hist_elo else None,
+            "elo_against": hist_elo.get((gw, opp_name)) if hist_elo and opp_name else None,
+            "clean_sheet_prob": None,
+            "goalscorer_prob": None,
+            "is_historical": True,
+        })
+
+    return pd.DataFrame(rows)
 
 
 def _detect_next_gw() -> int:
@@ -355,6 +522,7 @@ def build_next_gw_rows(
             # Odds
             "clean_sheet_prob": o_entry.get("clean_sheet_prob"),
             "goalscorer_prob": o_entry.get("goalscorer_prob"),
+            "is_historical": False,
         })
 
     return pd.DataFrame(rows)
@@ -367,21 +535,49 @@ def main():
     players = pd.read_parquet(SILVER / "players.parquet")
     teams = pd.read_parquet(SILVER / "teams.parquet")
     fixtures = pd.read_parquet(SILVER / "fixtures.parquet")
-    fpl_map = pd.read_parquet(SILVER / "fpl_map.parquet")
-    us_matches = pd.read_parquet(SILVER / "understat_matches.parquet")
     clubelo = pd.read_parquet(SILVER / "clubelo.parquet")
     odds = pd.read_parquet(SILVER / "odds.parquet")
     injuries = pd.read_parquet(SILVER / "injuries.parquet")
 
-    # Load live GW data for actual_points (find whatever live_gw_*.json files exist)
-    live_gw = None
+    # Load all live GW files → (gw, fpl_id) → total_points
+    live_points: dict[tuple[int, int], int] = {}
     live_files = sorted(BRONZE.glob("live_gw_*.json"))
-    if live_files:
-        live_gw = json.loads(live_files[-1].read_text())
-        print(f"Loaded {live_files[-1].name} for actual_points")
+    for lf in live_files:
+        try:
+            gw_num = int(lf.stem.split("_")[-1])
+        except ValueError:
+            continue
+        data = json.loads(lf.read_text())
+        for el in data.get("elements", []):
+            pts = el["stats"].get("total_points")
+            if pts is not None:
+                live_points[(gw_num, el["id"])] = pts
+    print(f"Loaded {len(live_files)} live GW file(s), {len(live_points)} (gw, player) point entries")
 
-    print("Building historical rows...")
-    hist = build_historical_rows(us_matches, fixtures, teams, fpl_map, players, live_gw)
+    ph = None
+    player_gw_features = None
+    ph_path = SILVER / "player_history.parquet"
+    if ph_path.exists():
+        ph = pd.read_parquet(ph_path)
+        player_gw_features = build_player_gw_features(ph)
+        print(f"Built per-GW rolling features for {player_gw_features['player_id'].nunique()} players")
+    else:
+        print("player_history.parquet not found — cost/ppg/form will be null for historical rows")
+
+    hist_elo: dict[tuple[int, str], float] | None = None
+    hist_elo_path = SILVER / "clubelo_historical.parquet"
+    if hist_elo_path.exists():
+        ch = pd.read_parquet(hist_elo_path)
+        hist_elo = {(int(r["gw"]), r["team_name"]): r["elo"] for _, r in ch.iterrows()}
+        print(f"Loaded historical Elo for {ch['gw'].nunique()} GWs, {len(hist_elo)} (gw, team) entries")
+    else:
+        print("clubelo_historical.parquet not found — elo_for/against will be null for historical rows")
+
+    print("Building historical rows (FPL-profile)...")
+    if ph is not None:
+        hist = build_historical_rows_fpl(ph, fixtures, teams, players, player_gw_features, hist_elo)
+    else:
+        hist = pd.DataFrame()
     print(f"  Historical rows: {len(hist)}")
 
     print("Building next GW rows...")
