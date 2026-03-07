@@ -100,11 +100,28 @@ def solve_starting_xi(squad: list[dict]) -> list[dict]:
     return [p for p, s in zip(squad, starting) if pulp.value(s) == 1]
 
 
-def pick_captain(starters: list[dict]) -> dict:
-    return max(starters, key=lambda p: p["expected_points"])
+def order_bench(bench: list[dict]) -> list[dict]:
+    """
+    Order bench for auto-substitutions:
+      slot 0 — GKP (only replaces starting GKP)
+      slots 1-3 — outfield, sorted by expected_points desc so the best
+                  available player is tried first by the auto-sub algorithm.
+    """
+    gkp = [p for p in bench if p["pos"] == "GKP"]
+    outfield = sorted(
+        [p for p in bench if p["pos"] != "GKP"],
+        key=lambda p: p["expected_points"],
+        reverse=True,
+    )
+    return gkp + outfield
 
 
-def print_squad(squad: list[dict], starters: list[dict], captain: dict) -> None:
+def pick_captain(starters: list[dict]) -> tuple[dict, dict]:
+    ranked = sorted(starters, key=lambda p: p["expected_points"], reverse=True)
+    return ranked[0], ranked[1]
+
+
+def print_squad(squad: list[dict], starters: list[dict], captain: dict, vice_captain: dict) -> None:
     starter_ids = {p["id"] for p in starters}
     order = ["GKP", "DEF", "MID", "FWD"]
 
@@ -120,25 +137,28 @@ def print_squad(squad: list[dict], starters: list[dict], captain: dict) -> None:
         for p in sorted(starters, key=lambda p: p["expected_points"], reverse=True):
             if p["pos"] != pos:
                 continue
-            tag = " (C)" if p["id"] == captain["id"] else "     "
+            if p["id"] == captain["id"]:
+                tag = " (C)"
+            elif p["id"] == vice_captain["id"]:
+                tag = "(VC)"
+            else:
+                tag = "    "
             print(f"  {tag}  {p['name']:<22} {p['team']:<5} £{p['cost']:>4.1f}m  xPts: {p['expected_points']:>5.2f}")
 
     print(f"\n  BENCH")
-    bench = [p for p in squad if p["id"] not in starter_ids]
-    for pos in order:
-        for p in sorted(bench, key=lambda p: p["expected_points"], reverse=True):
-            if p["pos"] != pos:
-                continue
-            print(f"         {p['name']:<22} {p['team']:<5} £{p['cost']:>4.1f}m  xPts: {p['expected_points']:>5.2f}")
+    bench = order_bench([p for p in squad if p["id"] not in starter_ids])
+    for slot, p in enumerate(bench):
+        print(f"  [{slot}]   {p['name']:<22} {p['team']:<5} £{p['cost']:>4.1f}m  xPts: {p['expected_points']:>5.2f}")
 
     print(f"\n{'=' * 58}")
     print(f"  Total squad cost:  £{total_cost:.1f}m  (budget: £{BUDGET:.1f}m)")
     print(f"  Starting XI xPts:  {xi_xpts:.2f}  (incl. captain bonus)")
     print(f"  Captain:           {captain['name']}")
+    print(f"  Vice-captain:      {vice_captain['name']}")
     print(f"{'=' * 58}\n")
 
 
-def save_json(squad: list[dict], starters: list[dict], captain: dict, output_dir: Path) -> Path:
+def save_json(squad: list[dict], starters: list[dict], captain: dict, vice_captain: dict, output_dir: Path) -> Path:
     starter_ids = {p["id"] for p in starters}
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     path = output_dir / f"squad_{timestamp}.json"
@@ -148,16 +168,17 @@ def save_json(squad: list[dict], starters: list[dict], captain: dict, output_dir
         "budget": BUDGET,
         "total_cost": round(sum(p["cost"] for p in squad), 1),
         "captain": captain["name"],
+        "vice_captain": vice_captain["name"],
         "starting_xi_expected_points": round(
             sum(p["expected_points"] for p in starters) + captain["expected_points"], 2
         ),
         "starting_xi": [
-            {**p, "is_captain": p["id"] == captain["id"]}
+            {**p, "is_captain": p["id"] == captain["id"], "is_vice_captain": p["id"] == vice_captain["id"]}
             for p in sorted(starters, key=lambda p: p["expected_points"], reverse=True)
         ],
         "bench": [
-            p for p in sorted(squad, key=lambda p: p["expected_points"], reverse=True)
-            if p["id"] not in starter_ids
+            {**p, "bench_slot": slot}
+            for slot, p in enumerate(order_bench([p for p in squad if p["id"] not in starter_ids]))
         ],
     }
 
@@ -174,11 +195,11 @@ def main():
 
     squad = solve_squad(players)
     starters = solve_starting_xi(squad)
-    captain = pick_captain(starters)
+    captain, vice_captain = pick_captain(starters)
 
-    print_squad(squad, starters, captain)
+    print_squad(squad, starters, captain, vice_captain)
 
-    path = save_json(squad, starters, captain, OUTPUT_DIR)
+    path = save_json(squad, starters, captain, vice_captain, OUTPUT_DIR)
     print(f"Squad saved -> {path}")
 
 

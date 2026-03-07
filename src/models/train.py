@@ -25,7 +25,7 @@ def load_and_prepare(path: Path) -> pd.DataFrame:
 
 
 def make_features(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Series]:
-    drop = LEAKAGE_COLS + ID_COLS + [TARGET, "gameweek_id"]
+    drop = LEAKAGE_COLS + ID_COLS + [TARGET]
     X = df.drop(columns=[c for c in drop if c in df.columns])
 
     # One-hot encode position

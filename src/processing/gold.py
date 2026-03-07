@@ -86,6 +86,10 @@ def build_player_gw_features(history: pd.DataFrame) -> pd.DataFrame:
     """
     history = history.sort_values(["player_id", "round"]).copy()
 
+    xg_col = "expected_goals" if "expected_goals" in history.columns else None
+    xa_col = "expected_assists" if "expected_assists" in history.columns else None
+    xgc_col = "expected_goals_conceded" if "expected_goals_conceded" in history.columns else None
+
     rows = []
     for pid, grp in history.groupby("player_id"):
         grp = grp.sort_values("round").reset_index(drop=True)
@@ -101,12 +105,22 @@ def build_player_gw_features(history: pd.DataFrame) -> pd.DataFrame:
                 ppg = None
                 form = None
                 ict_form = None
+                xg_rolling = None
+                xa_rolling = None
+                xgc_rolling = None
+                starts_rolling = None
+                minutes_rolling = None
             else:
                 ppg = cum_points / cum_games
                 prev = grp.loc[:i - 1]
                 tail5 = prev.tail(5)
                 form = float(tail5["total_points"].mean())
                 ict_form = float(tail5["ict_index"].mean())
+                xg_rolling = float(tail5[xg_col].mean()) if xg_col else None
+                xa_rolling = float(tail5[xa_col].mean()) if xa_col else None
+                xgc_rolling = float(tail5[xgc_col].mean()) if xgc_col else None
+                starts_rolling = float(tail5["starts"].mean()) if "starts" in grp.columns else None
+                minutes_rolling = float(tail5["minutes"].mean()) if "minutes" in grp.columns else None
 
             rows.append({
                 "player_id": pid,
@@ -115,6 +129,15 @@ def build_player_gw_features(history: pd.DataFrame) -> pd.DataFrame:
                 "ppg": ppg,
                 "form": form,
                 "ict_index_form": ict_form,
+                "xg_rolling": xg_rolling,
+                "xa_rolling": xa_rolling,
+                "xgc_rolling": xgc_rolling,
+                "starts_rolling": starts_rolling,
+                "minutes_rolling": minutes_rolling,
+                # Direct GW values for ownership/transfer signal
+                "selected": row.get("selected"),
+                "transfers_in": row.get("transfers_in"),
+                "transfers_out": row.get("transfers_out"),
             })
 
             cum_points += row["total_points"]
@@ -267,6 +290,7 @@ def build_historical_rows_fpl(
     players: pd.DataFrame,
     player_gw_features: pd.DataFrame | None = None,
     hist_elo: dict[tuple[int, str], float] | None = None,
+    weather_lookup: dict[tuple[int, int], dict] | None = None,
 ) -> pd.DataFrame:
     """
     Build historical training rows from player_history (FPL-native data).
@@ -302,6 +326,14 @@ def build_historical_rows_fpl(
                 "ppg": r["ppg"],
                 "form": r["form"],
                 "ict_index_form": r["ict_index_form"],
+                "xg_rolling": r.get("xg_rolling"),
+                "xa_rolling": r.get("xa_rolling"),
+                "xgc_rolling": r.get("xgc_rolling"),
+                "starts_rolling": r.get("starts_rolling"),
+                "minutes_rolling": r.get("minutes_rolling"),
+                "selected": r.get("selected"),
+                "transfers_in": r.get("transfers_in"),
+                "transfers_out": r.get("transfers_out"),
             }
 
     rows = []
@@ -347,6 +379,14 @@ def build_historical_rows_fpl(
             "ppg": pgf.get("ppg"),
             "form": pgf.get("form"),
             "ict_index_form": pgf.get("ict_index_form"),
+            "xg_rolling": pgf.get("xg_rolling"),
+            "xa_rolling": pgf.get("xa_rolling"),
+            "xgc_rolling": pgf.get("xgc_rolling"),
+            "starts_rolling": pgf.get("starts_rolling"),
+            "minutes_rolling": pgf.get("minutes_rolling"),
+            "selected_pct": round(pgf["selected"] / 110_000, 4) if pgf.get("selected") else None,
+            "transfers_in_event": pgf.get("transfers_in"),
+            "transfers_out_event": pgf.get("transfers_out"),
             "chance_of_playing": 100,
             "injury_confidence": 100,
             "actual_points": float(actual_pts),
@@ -367,9 +407,34 @@ def build_historical_rows_fpl(
             "clean_sheet_prob": None,
             "goalscorer_prob": None,
             "is_historical": True,
+            **_get_weather(gw, fpl_team_id, opponent_team_id, is_home, weather_lookup),
         })
 
     return pd.DataFrame(rows)
+
+
+def _get_weather(
+    gw: int,
+    team_id: int | None,
+    opponent_team_id: int | None,
+    is_home: bool | None,
+    weather_lookup: dict[tuple[int, int], dict] | None,
+) -> dict:
+    """Return weather fields for a fixture. Weather is always at the home stadium."""
+    if not weather_lookup or gw is None:
+        return {"temp_c": None, "precipitation_mm": None, "windspeed_kmh": None}
+    if is_home is True:
+        home_team_id = team_id
+    elif is_home is False:
+        home_team_id = opponent_team_id
+    else:
+        return {"temp_c": None, "precipitation_mm": None, "windspeed_kmh": None}
+    wx = weather_lookup.get((gw, home_team_id), {})
+    return {
+        "temp_c": wx.get("temp_c"),
+        "precipitation_mm": wx.get("precipitation_mm"),
+        "windspeed_kmh": wx.get("windspeed_kmh"),
+    }
 
 
 def _detect_next_gw() -> int:
@@ -394,6 +459,8 @@ def build_next_gw_rows(
     clubelo: pd.DataFrame,
     odds: pd.DataFrame,
     injuries: pd.DataFrame,
+    player_gw_features: pd.DataFrame | None = None,
+    weather_lookup: dict[tuple[int, int], dict] | None = None,
 ) -> pd.DataFrame:
     """Build one row per active player for the next upcoming GW."""
 
@@ -423,6 +490,19 @@ def build_next_gw_rows(
             odds_lookup[o["player_name"]] = {
                 "clean_sheet_prob": o.get("clean_sheet_prob"),
                 "goalscorer_prob": o.get("goalscorer_prob"),
+            }
+
+    # Build rolling xG/xA lookup: player_id → most recent pre-match rolling values
+    xg_lookup: dict[int, dict] = {}
+    if player_gw_features is not None and not player_gw_features.empty:
+        latest = player_gw_features.sort_values("gameweek_id").groupby("player_id").last()
+        for pid, r in latest.iterrows():
+            xg_lookup[int(pid)] = {
+                "xg_rolling": r.get("xg_rolling"),
+                "xa_rolling": r.get("xa_rolling"),
+                "xgc_rolling": r.get("xgc_rolling"),
+                "starts_rolling": r.get("starts_rolling"),
+                "minutes_rolling": r.get("minutes_rolling"),
             }
 
     rows = []
@@ -479,6 +559,7 @@ def build_next_gw_rows(
 
         pos_code = p.get("element_type")
         position = POSITION_MAP.get(pos_code, "") if pos_code else ""
+        xg_entry = xg_lookup.get(int(p["id"]), {})
 
         rows.append({
             "player_id": int(p["id"]),
@@ -499,6 +580,11 @@ def build_next_gw_rows(
             "ppg": p.get("points_per_game"),
             "form": p.get("form"),
             "ict_index_form": p.get("ict_index"),
+            "xg_rolling": xg_entry.get("xg_rolling"),
+            "xa_rolling": xg_entry.get("xa_rolling"),
+            "xgc_rolling": xg_entry.get("xgc_rolling"),
+            "starts_rolling": xg_entry.get("starts_rolling"),
+            "minutes_rolling": xg_entry.get("minutes_rolling"),
             "chance_of_playing": int(p.get("chance_of_playing_next_round", 100)),
             "injury_confidence": int(inj_conf),
             "actual_points": None,
@@ -524,6 +610,7 @@ def build_next_gw_rows(
             "clean_sheet_prob": o_entry.get("clean_sheet_prob"),
             "goalscorer_prob": o_entry.get("goalscorer_prob"),
             "is_historical": False,
+            **_get_weather(next_gw, fpl_team_id, opponent_team_id, is_home, weather_lookup),
         })
 
     return pd.DataFrame(rows)
@@ -539,6 +626,8 @@ def main():
     clubelo = pd.read_parquet(SILVER / "clubelo.parquet")
     odds = pd.read_parquet(SILVER / "odds.parquet")
     injuries = pd.read_parquet(SILVER / "injuries.parquet")
+    fixture_odds_path = SILVER / "fixture_odds.parquet"
+    fixture_odds = pd.read_parquet(fixture_odds_path) if fixture_odds_path.exists() else pd.DataFrame()
 
     # Load all live GW files → (gw, fpl_id) → total_points
     live_points: dict[tuple[int, int], int] = {}
@@ -574,9 +663,27 @@ def main():
     else:
         print("clubelo_historical.parquet not found — elo_for/against will be null for historical rows")
 
+    weather_lookup: dict[tuple[int, int], dict] | None = None
+    weather_path = SILVER / "weather.parquet"
+    if weather_path.exists():
+        weather = pd.read_parquet(weather_path)
+        weather_lookup = {
+            (int(r["gw"]), int(r["team_h"])): {
+                "temp_c": r["temp_c"],
+                "precipitation_mm": r["precipitation_mm"],
+                "windspeed_kmh": r["windspeed_kmh"],
+            }
+            for _, r in weather.iterrows()
+        }
+        print(f"Loaded weather for {len(weather_lookup)} fixtures")
+    else:
+        print("weather.parquet not found — temp_c/precipitation_mm/windspeed_kmh will be null")
+
     print("Building historical rows (FPL-profile)...")
     if ph is not None:
-        hist = build_historical_rows_fpl(ph, fixtures, teams, players, player_gw_features, hist_elo)
+        hist = build_historical_rows_fpl(
+            ph, fixtures, teams, players, player_gw_features, hist_elo, weather_lookup
+        )
     else:
         hist = pd.DataFrame()
     print(f"  FPL historical rows: {len(hist)}")
@@ -616,11 +723,40 @@ def main():
         print("Skipping Understat enrichment (fpl_map or understat_matches_2025.json not found)")
 
     print("Building next GW rows...")
-    next_gw = build_next_gw_rows(players, fixtures, teams, clubelo, odds, injuries)
+    next_gw = build_next_gw_rows(
+        players, fixtures, teams, clubelo, odds, injuries, player_gw_features, weather_lookup
+    )
     print(f"  Next GW rows: {len(next_gw)}")
 
     features = pd.concat([hist, next_gw], ignore_index=True)
     features = features.sort_values(["player_id", "gameweek_id"]).reset_index(drop=True)
+
+    # Join team win probability from fixture_odds
+    if not fixture_odds.empty:
+        # Build fpl_display_name → team_id lookup from teams table
+        fpl_name_to_id = dict(zip(teams["name"], teams["id"]))
+
+        # Build (gw, team_id) → (win_prob, draw_prob) lookup
+        win_prob_lookup: dict[tuple[int, int], tuple[float, float]] = {}
+        for _, r in fixture_odds.iterrows():
+            gw = int(r["gw"])
+            h_id = fpl_name_to_id.get(r["home_fpl"])
+            a_id = fpl_name_to_id.get(r["away_fpl"])
+            if h_id:
+                win_prob_lookup[(gw, h_id)] = (r["home_win_prob"], r["draw_prob"])
+            if a_id:
+                win_prob_lookup[(gw, a_id)] = (r["away_win_prob"], r["draw_prob"])
+
+        features["win_prob"] = [
+            win_prob_lookup.get((int(row["gameweek_id"]), int(row["team_id"])), (None, None))[0]
+            for _, row in features.iterrows()
+        ]
+        features["draw_prob_odds"] = [
+            win_prob_lookup.get((int(row["gameweek_id"]), int(row["team_id"])), (None, None))[1]
+            for _, row in features.iterrows()
+        ]
+        covered = features["win_prob"].notna().sum()
+        print(f"Joined win_prob for {covered}/{len(features)} rows")
 
     out = GOLD / "features.parquet"
     features.to_parquet(out, index=False)

@@ -223,8 +223,15 @@ def clean_odds() -> Path:
 def clean_player_history() -> Path:
     data = json.loads((BRONZE / "player_history.json").read_text())
     df = pd.DataFrame(data)
-    df["ict_index"] = pd.to_numeric(df["ict_index"], errors="coerce")
-    cols = ["player_id", "round", "value", "total_points", "ict_index", "minutes", "starts"]
+    for col in ["ict_index", "expected_goals", "expected_assists",
+                "expected_goal_involvements", "expected_goals_conceded"]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce")
+    cols = [
+        "player_id", "round", "value", "total_points", "ict_index", "minutes", "starts",
+        "expected_goals", "expected_assists", "expected_goal_involvements", "expected_goals_conceded",
+        "selected", "transfers_in", "transfers_out",
+    ]
     cols = [c for c in cols if c in df.columns]
     df = df[cols]
     out = SILVER / "player_history.parquet"
@@ -245,6 +252,61 @@ def clean_clubelo_historical() -> Path:
     return out
 
 
+ODDS_TO_FPL = {
+    "Brighton and Hove Albion": "Brighton",
+    "Manchester City": "Man City",
+    "Manchester United": "Man Utd",
+    "Tottenham Hotspur": "Spurs",
+    "Nottingham Forest": "Nott'm Forest",
+    "West Ham United": "West Ham",
+    "Wolverhampton Wanderers": "Wolves",
+    "Newcastle United": "Newcastle",
+    "Leeds United": "Leeds",
+    "Leicester City": "Leicester",
+    "Ipswich Town": "Ipswich",
+}
+
+
+def _odds_to_fpl(name: str) -> str:
+    return ODDS_TO_FPL.get(name, name)
+
+
+def clean_fixture_odds() -> Path:
+    rows = []
+
+    # Historical: odds_historical.json (already has home_fpl/away_fpl)
+    hist_path = BRONZE / "odds_historical.json"
+    if hist_path.exists():
+        rows.extend(json.loads(hist_path.read_text()))
+
+    # Current/future GWs: odds_gw_*.json with home_win_prob fields
+    for odds_file in sorted(BRONZE.glob("odds_gw_*.json")):
+        data = json.loads(odds_file.read_text())
+        gw = data.get("gameweek")
+        if gw is None:
+            continue
+        for fx in data.get("fixtures", []):
+            if fx.get("home_win_prob") is None:
+                continue
+            rows.append({
+                "gw": gw,
+                "home_fpl": _odds_to_fpl(fx["home_team"]),
+                "away_fpl": _odds_to_fpl(fx["away_team"]),
+                "home_win_prob": fx["home_win_prob"],
+                "draw_prob": fx["draw_prob"],
+                "away_win_prob": fx["away_win_prob"],
+            })
+
+    df = pd.DataFrame(rows)
+    for col in ["home_win_prob", "draw_prob", "away_win_prob"]:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+    df = df[["gw", "home_fpl", "away_fpl", "home_win_prob", "draw_prob", "away_win_prob"]]
+    df = df.drop_duplicates(subset=["gw", "home_fpl", "away_fpl"])
+    out = SILVER / "fixture_odds.parquet"
+    df.to_parquet(out, index=False)
+    return out
+
+
 def clean_injuries() -> Path:
     data = json.loads((BRONZE / "injuries.json").read_text())
     df = pd.DataFrame(data.get("injuries", []))
@@ -254,6 +316,18 @@ def clean_injuries() -> Path:
     cols = [c for c in cols if c in df.columns]
     df = df[cols]
     out = SILVER / "injuries.parquet"
+    df.to_parquet(out, index=False)
+    return out
+
+
+def clean_weather() -> Path:
+    data = json.loads((BRONZE / "weather.json").read_text())
+    df = pd.DataFrame(data)
+    for col in ["temp_c", "precipitation_mm", "windspeed_kmh"]:
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+    cols = ["fixture_id", "team_h", "gw", "temp_c", "precipitation_mm", "windspeed_kmh"]
+    df = df[[c for c in cols if c in df.columns]]
+    out = SILVER / "weather.parquet"
     df.to_parquet(out, index=False)
     return out
 
@@ -272,7 +346,9 @@ def main():
         ("odds.parquet", clean_odds),
         ("injuries.parquet", clean_injuries),
         ("player_history.parquet", clean_player_history),
+        ("fixture_odds.parquet", clean_fixture_odds),
         ("clubelo_historical.parquet", clean_clubelo_historical),
+        ("weather.parquet", clean_weather),
     ]
 
     for name, fn in cleaners:

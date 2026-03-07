@@ -85,6 +85,25 @@ def to_implied_prob(outcomes: list[dict]) -> dict[str, float]:
     return {name: p / total for name, p in raw.items()}
 
 
+def build_win_probs(event_id: str, h2h_data: list[dict]) -> dict[str, float]:
+    """Extract de-vigged win/draw probabilities for one fixture from h2h batch data."""
+    h2h_event = next((e for e in h2h_data if e["id"] == event_id), None)
+    if not h2h_event:
+        return {}
+    home_team = h2h_event.get("home_team", "")
+    away_team = h2h_event.get("away_team", "")
+    for bookmaker in h2h_event.get("bookmakers", []):
+        for market in bookmaker.get("markets", []):
+            if market["key"] == "h2h":
+                probs = to_implied_prob(market["outcomes"])
+                return {
+                    "home_win_prob": round(probs.get(home_team, 0.0), 4),
+                    "draw_prob": round(probs.get("Draw", 0.0), 4),
+                    "away_win_prob": round(probs.get(away_team, 0.0), 4),
+                }
+    return {}
+
+
 def build_clean_sheet_probs(
     event_id: str,
     h2h_data: list[dict],
@@ -277,6 +296,7 @@ def main():
             event_odds = {}
 
         cs_probs = build_clean_sheet_probs(eid, match_odds_data, event_odds)
+        win_probs = build_win_probs(eid, match_odds_data)
         goalscorer_probs = build_goalscorer_probs(event_odds)
         total_goalscorer_players += len(goalscorer_probs)
 
@@ -286,6 +306,9 @@ def main():
             "away_team": away,
             "commence_time": event.get("commence_time"),
             "clean_sheet_prob": cs_probs,
+            "home_win_prob": win_probs.get("home_win_prob"),
+            "draw_prob": win_probs.get("draw_prob"),
+            "away_win_prob": win_probs.get("away_win_prob"),
             "goalscorer_probs": goalscorer_probs,
         })
 

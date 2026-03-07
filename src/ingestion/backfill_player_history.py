@@ -55,6 +55,13 @@ def main():
                 "ict_index": row["ict_index"],
                 "minutes": row["minutes"],
                 "starts": row["starts"],
+                "expected_goals": row.get("expected_goals"),
+                "expected_assists": row.get("expected_assists"),
+                "expected_goal_involvements": row.get("expected_goal_involvements"),
+                "expected_goals_conceded": row.get("expected_goals_conceded"),
+                "selected": row.get("selected"),
+                "transfers_in": row.get("transfers_in"),
+                "transfers_out": row.get("transfers_out"),
             })
 
         if i % 50 == 0:
